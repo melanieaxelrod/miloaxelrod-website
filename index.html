@@ -5,11 +5,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>milo axelrod</title>
-    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/sidebar.js"></script>
       
     <script src="https://use.typekit.net/fle5loy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -17,11 +16,11 @@
 </head>
 <body>
   
-  <div class="nav">
-    <div class="name">milo axelrod</div>
+  <nav class="">
+    <a href="#" class="name">milo axelrod</a>
    
     <div class="icons">
-      <a href="#" class="nav-icon">
+      <a href="#" class="nav-icon sidebar-toggle-open">
         <img src="/img/projects.svg" />
         <div class="overlay">
           <div class="label">projects</div>
@@ -41,8 +40,25 @@
       </a>
     </div>
     
-    <div class="sidebar"></div>
-  </div>
+    <div class="sidebar">
+      <div class="icons">
+        <a href="#" class="nav-icon sidebar-toggle-close">
+          <img src="/img/close.svg" />
+          <div class="overlay">
+            <div class="label">close</div>
+          </div>
+        </a>
+      </div>
+      
+      <h2>Projects</h2>
+      <div class="project-link">
+        <img src="#" class="project-image"/>
+        <div class="title">This is the title that might be long</div>
+      </div>
+      
+    </div>
+    
+  </nav>
   <div class="bottom-line"></div>
   
   <div class="page">
