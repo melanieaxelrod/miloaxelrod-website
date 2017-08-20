@@ -22,10 +22,39 @@ body {
     .nav .icons a {
       margin-left: 30px;
       height: 31px;
-      float: right; }
+      float: right;
+      color: #F37A5C;
+      position: relative; }
       .nav .icons a img {
         height: 31px;
         display: block; }
+      .nav .icons a .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .4s ease;
+        background-color: #FFE9E3; }
+        .nav .icons a .overlay .label {
+          font-size: 15px;
+          font-weight: 700;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%); }
+      .nav .icons a:hover .overlay {
+        opacity: 1; }
+    .nav .icons a:hover {
+      color: #F37A5C; }
+    .nav .icons a:visited {
+      color: #F37A5C; }
+    .nav .icons a:active {
+      color: #F37A5C; }
 
 .bottom-line {
   background-color: #FFE9E3;
@@ -60,5 +89,3 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 29px; }
-
-/*# sourceMappingURL=style.css.map */
