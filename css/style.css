@@ -71,6 +71,9 @@ p {
 .not-mobile {
   display: none; }
 
+.hide {
+  display: none; }
+
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
@@ -475,3 +478,44 @@ nav {
       margin: 0 auto; }
     .page .section .research .services {
       max-width: 800px; } }
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / P R O F I L E / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+.ec {
+  width: 230px; }
+  .ec .ec-cat .cat-name {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #F69679;
+    margin-bottom: 10px;
+    color: #F69679; }
+  .ec .ec-cat .ec-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px; }
+    .ec .ec-cat .ec-item .label {
+      width: 50px;
+      font-size: 12px;
+      margin-right: 10px;
+      font-weight: 300; }
+    .ec .ec-cat .ec-item .ec-info {
+      width: 170px; }
+      .ec .ec-cat .ec-item .ec-info .title {
+        font-size: 12px;
+        letter-spacing: 0.2px;
+        line-height: 15px;
+        margin-bottom: 3px;
+        font-weight: 300; }
+      .ec .ec-cat .ec-item .ec-info .credit {
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin: 0; }
+        .ec .ec-cat .ec-item .ec-info .credit a {
+          padding: 1px 4px; }
