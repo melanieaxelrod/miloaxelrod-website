@@ -16,29 +16,35 @@
 </head>
 <body>
   
-  <nav>
+ <nav>
   <div class="navbar">
     <div class="name">
       <a href="#" ><div clas="milo">milo axelrod</div></a>
     </div>
    
     <div class="icons">
-      <a href="#" class="nav-icon">
+      <a href="#" class="nav-icon not-mobile">
         <img src="/img/icons/profile.svg" />
         <div class="overlay">
           <div class="label">profile</div>
         </div>
       </a>
-      <a href="#" class="nav-icon">
-        <img src="/img/icons/blog.svg" />
+      <a href="#" class="nav-icon not-mobile">
+        <img src="/img/icons/contact.svg" />
         <div class="overlay">
-          <div class="label">blog</div>
+          <div class="label">contact</div>
         </div>
       </a>
-      <a href="#" class="nav-icon sidebar-toggle-open" >
+      <a href="#" class="nav-icon sidebar-toggle-open not-mobile" >
         <img src="/img/icons/projects.svg" />
         <div class="overlay">
           <div class="label">projects</div>
+        </div>
+      </a>
+      <a href="#" class="nav-icon sidebar-toggle-open mobile" >
+        <img src="/img/icons/hamburger.svg" />
+        <div class="overlay">
+          <div class="label">menu</div>
         </div>
       </a>
     </div>
@@ -61,14 +67,24 @@
       </div>
       
       <div class="mobile-nav mobile">
-        <div class="mobile-link mobile">
-        <a href="#">
+        <a href="#" class="mobile-link mobile">
           <div class="mobile-nav-icon"><img src="/img/icons/profile.svg" /></div>
-          <h2>Profile</h2></a></div>
+          <h3>profile</h3>
+          <div class="mobile-nav-icon arrow"><img src="/img/icons/arrow-r.svg" /></div>
+        </a>
+        <a href="#" class="mobile-link mobile">
+          <div class="mobile-nav-icon"><img src="/img/icons/contact.svg" /></div>
+          <h3>contact</h3>
+          <div class="mobile-nav-icon arrow"><img src="/img/icons/arrow-r.svg" /></div>
+        </a>
+        <div class="mobile-link mobile">
+          <div class="mobile-nav-icon"><img src="/img/icons/projects.svg" /></div>
+          <h3>projects</h3>
+        </div>
       </div>
       
+    <h3 class="not-mobile">Projects</h3>
     <div class="sidebar-body">
-      <h2>Projects</h2>
       <div class="project-link">
         <div class="project-image">
           <img src="#" />
@@ -115,7 +131,7 @@
         I’m a freelance graphic designer.
       </h1>
       <p>
-        I like looking at rocks, eating plants I found on the ground, and high-quality speakers. I also realy like my job a lot. Lets work together.
+        I like looking at rocks, eating plants I found on the ground, and high-quality speakers. I also really like my job. Lets work together.
       </p>
     </div>
   </div>
@@ -170,7 +186,7 @@
   </div>
   
   <div class="section">
-    <div class="flexmom">
+    <div class="research flexmom">
     <div class="copy-2">
       <h2>Research is key.</h2>
       <p>Your project is all about the user, the viewer, the customer. I practice <a href="#">user-centered design</a> in every project I work on, from the largest to the smallest. Each one recieves the love and care of a detailed research phase to ensure that the product we create together will not just be a great thing, but the right thing.</p>
@@ -180,9 +196,11 @@
   </div>
   
   <div class="section">
-    <h2>
-      The people I work with are great!
-    </h2>
+    <div class="copy-1">
+      <h2>
+        The people I work with are great!
+      </h2>
+    </div>
     <div class="clients flexmom">
       <div class="client">
         <div class="image"><img src="#" /></div>
@@ -215,16 +233,16 @@
   </div>
   
   <div class="section last">
-    <div class="flexmom">
-    <div class="image"><img src="#" /></div>
+    <div class="contact">
       <div class="copy-2">
         <h2>
-          Please come say hi!
+          Come say hello!
         </h2>
         <p>
-          I’m always interested in meeting new people and finding that next awesome project to work on. 
+          I’m always interested in meeting new people and finding that next awesome project to work on. Do you care about your users, being good to the world, and fun? We might just be a perfect fit.
         </p>
     </div>
+    <div class="image"><img src="img/illus/envelope.svg" /></div>
   </div>
   </div>
   </div>
