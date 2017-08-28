@@ -784,54 +784,146 @@ nav {
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
 
-.ec {
-  width: 230px;
+.prof-header{ 
+  max-width: 600px;
+  margin: 0 auto 30px;
   
-  .ec-cat {
-    
-    .cat-name {
-      font-weight: 700;
-      font-size: 18px;
-      padding-bottom: 3px;
-      border-bottom: 2px solid $pink;
-      margin-bottom: 10px;
-      color: $pink;
-    }
-    
-    .ec-item {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      margin-bottom: 20px;
-      
-      .label{
-        width: 50px;
-        font-size: 12px;
-        margin-right: 10px;
-        font-weight: 300;
-      }
-      
-      .ec-info {
-        width: 170px;
-        
-        .title {
-          font-size: 12px;
-          letter-spacing: 0.2px;
-          line-height: 15px;
-          margin-bottom: 3px;
-          font-weight: 300;
+  .name {
+    margin: 40px 0 0 0;
+  }
+  
+  .handle {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 31px;
+    margin-top: 0px;
+    border: 0px solid $pink;
+    border-radius: 3px;
+    padding: 4px 10px;
+    background-color: $lightpink;
+
+    .link {
+
+      .icon {
+        height: 31px;
+        margin-right: 25px;
+
+        img{
+          height: 100%;
+
         }
+      }
+    }
+  }
+}
+
+.prof-body {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: -1;
+    margin: 0 auto 40px;
+    
+    .bio {
+      max-width: 840px;
+      margin-right: 0;
+      
+      .cat-name {
+        font-weight: 700;
+        font-size: 18px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid $pink;
+        margin-bottom: 10px;
+        color: $pink;
+      }
+    
+      .prof-pic {
+        width: 200px;
+        height: 200px;
+        float: none;
+        margin: 20px auto;
+        border-radius: 8px;
+        border: 2px solid $pink;
         
-        .credit {
-          font-weight: 500;
-          font-size: 9px;
-          line-height: 12px;
-          text-transform: uppercase;
-          letter-spacing: 0.5px;
-          margin: 0;
+        img {
+          width: 100%;
+          border-radius: 6px;
           
-          a {
-            padding: 1px 4px;
+        }
+      }
+      .descript {
+        width: 100%;
+      }
+    }
+  }
+
+  .ec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+
+    .ec-cat {
+      max-width: 250px;
+      margin: 0 15px;
+
+      .cat-name {
+        font-weight: 700;
+        font-size: 18px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid $pink;
+        margin-bottom: 10px;
+        color: $pink;
+      }
+
+      .ec-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 25px;
+
+        .label{
+          width: 50px;
+          font-size: 12px;
+          margin: 0 10px 6px 0;
+          font-weight: 300;
+          color: $light;
+        }
+
+        .ec-info {
+          width: 190px;
+
+          .title {
+            font-size: 12px;
+            letter-spacing: 0.2px;
+            line-height: 15px;
+            margin-bottom: 3px;
+            font-weight: 300;
+          }
+
+          .credit {
+            font-weight: 500;
+            font-size: 9px;
+            line-height: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0;
+
+            a {
+              padding: 1px 4px;
+            }
           }
         }
       }
@@ -841,6 +933,72 @@ nav {
 
 
 
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
 
 
+@media only screen and (min-width: 944px) {
+  
+
+  .prof-header{ 
+    max-width: 840px;
+  }
+  
+  .prof-body {
+    margin: 0 auto;
+    max-width: 840px;
+    
+    .about {
+      margin: 0;
+      order: 0;
+      
+      .bio {
+        max-width: 500px;
+      }
+    }
+    
+    .ec {
+      display: block;
+      margin: 0;
+
+      .ec-cat {
+        margin: 0;
+      }
+    }
+  }
+  
+}
+
+
+@media only screen and (min-width: 450px) {
+  
+  .prof-header {
+    
+    .name {
+      margin: 0;
+    }
+  }
+  
+  .prof-body {
+    .about {
+      .bio {
+        .prof-pic {
+          width: 200px;
+          height: 200px;
+          float: left;
+          margin: 10px 30px 10px 0;
+          border-radius: 8px;
+          border: 2px solid $pink;
+
+          img {
+            width: 100%;
+            border-radius: 6px;
+          }
+        }
+      }
+    }
+  }
+  
+}
 
