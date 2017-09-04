@@ -1,6 +1,6 @@
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
-/ / / m i l o's C l u b h o u s e / / /
+/ / / M i l o's C l u b h o u s e / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
 
@@ -105,7 +105,6 @@ p {
   
   h1 {
     font-size: 56px;
-    margin: 0 0 40px 0;
   }
   
    h2 {
@@ -126,7 +125,6 @@ p {
   
   h1 {
     font-size: 74px;
-    margin: 0 0 40px 0;
   }
   
   h2 {
@@ -142,22 +140,19 @@ p {
 @media only screen and (max-width: 360px) {
 
   h1 {
-  font-size: 32px;
-  line-height: 40px;
-  margin: 0 0 40px 0;
-}
+    font-size: 32px;
+    line-height: 40px;
+  }
 
-h2 {
-  font-size: 30px;
-  margin: 0 0 15px 0;
-}
+  h2 {
+    font-size: 30px;
+  }
 
-p {
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 26px;
-  margin: 0 0 5px 0;
-}
+  p {
+    font-size: 17px;
+    line-height: 26px;
+    margin: 0 0 5px 0;
+  }
   
 }
 
@@ -330,6 +325,19 @@ nav {
           }
         }
       }
+      
+      a {
+          transition: 0.3s;
+
+        }
+        a:hover {
+          opacity: .6;
+          transition: 0.3s;
+        }
+        a:active {
+          background-color: $pinktransp;
+          transition: 0.3s;
+        }
     }
     
     h3 {
@@ -374,8 +382,55 @@ nav {
           color: $dark;
           font-size: 14px;
           font-weight: 500;
-          padding: 0px 0 0 0;
+          padding: 0;
           letter-spacing: 0.3px;
+        }
+      }
+    }
+    
+    .sidebar-footer {
+      position: absolute;
+      bottom: 15px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        height: 31px;
+        margin-top: 0;
+        border-radius: 3px;
+        padding: 4px 0;
+
+        .link {
+          margin-right: 17px;
+          padding: 0 4px;
+          border-radius: 5px;
+
+          .icon {
+            height: 31px;
+
+            img{
+              height: 100%;
+
+            }
+          }
+        }
+
+        a {
+          transition: 0.3s;
+
+        }
+        a:hover {
+          opacity: .6;
+          transition: 0.3s;
+        }
+        a:active {
+          opacity: 1;
+          background-color: $pinktransp;
+          transition: 0.3s;
         }
       }
     }
@@ -423,16 +478,10 @@ nav {
     .icons {
       
       .sidebar-toggle-close {
-        
         margin-left: 268px;
       }
     }
   }
-  
-  
-}
-
-@media only screen and (min-width: 768px) {
   
 }
 
@@ -447,15 +496,11 @@ nav {
 
       a {
         margin-left: 17px;
-        height: 31px;
-        color: $darkpink;
-        position: relative;
         }
       }
     }
   }
 
-  
 }
 
 
@@ -471,7 +516,6 @@ nav {
 
 .page {
   border: 20px solid $lightpink;
-  border-top: 0 solid;
   margin: 0;
   width: auto;
   overflow: hidden;
@@ -617,28 +661,18 @@ nav {
 @media only screen and (min-width: 450px) {
   
 .page {
-  border: 20px solid $lightpink;
-  border-top: 0 solid;
-  margin: 0;
-  width: auto;
 
   .section{
-    border-bottom: 20px solid $lightpink;
     padding: 100px 20px;
-    margin: 0 auto;
-    
     
     .services {
-      max-width: 800px;
       
       .service {
-        width: 155px;
         margin: 20px 15px;
         
         .image {
           height: 115px;
           width: 115px;
-          margin: 0 auto;
           
           img {
           height: 115px;
@@ -650,17 +684,12 @@ nav {
   
     
  .contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
     .image {
       height: 180px;
-      max-width: 350px;
 
       img {
         height: 180px;
-        max-width: 350px;
 
       }
     }
@@ -672,7 +701,6 @@ nav {
         
         img {
           height: 270px;
-          margin: 0 auto;
         }
       }
     }
@@ -684,31 +712,22 @@ nav {
 @media only screen and (min-width: 768px) {
   
 .page {
-  border: 20px solid $lightpink;
-  border-top: 0 solid;
-  margin: 0;
-  width: auto;
 
   .section{
-    border-bottom: 20px solid $lightpink;
     padding: 100px 50px;
-    margin: 0 auto;
     
     .copy-2 {
       max-width: 530px;
     }
     
     .services {
-      max-width: 800px;
       
       .service {
-        width: 155px;
         margin: 20px 25px;
         
         .image {
           height: 115px;
           width: 115px;
-          margin: 0 auto;
           
           img {
           height: 115px;
@@ -720,17 +739,12 @@ nav {
   
     
  .contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
     .image {
       height: 180px;
-      max-width: 350px;
 
       img {
         height: 180px;
-        max-width: 350px;
 
       }
     }
@@ -758,21 +772,16 @@ nav {
 
      .research {
     
-    .image {
-      
-      img {
-        height: 190px;
-        min-width: 100px;
-        margin: 0 auto;
+        .image {
+
+          img {
+            height: 190px;
+            min-width: 100px;
+          }
+        }
       }
     }
-    
-    .services {
-      max-width: 800px;
-    }
   }
-   }
-}
   
 }
 
@@ -786,38 +795,49 @@ nav {
 
 .prof-header{ 
   max-width: 600px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   
   .name {
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
   }
   
-  .handle {
-    font-size: 20px;
-    font-weight: 300;
-  }
   .links {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     height: 31px;
     margin-top: 0px;
-    border: 0px solid $pink;
     border-radius: 3px;
-    padding: 4px 10px;
+    padding: 4px 14px;
     background-color: $lightpink;
 
     .link {
+      margin-right: 20px;
+      padding: 0 4px;
+      border-radius: 5px;
 
       .icon {
         height: 31px;
-        margin-right: 25px;
 
         img{
           height: 100%;
 
         }
       }
+    }
+    
+    a {
+      transition: 0.3s;
+      
+    }
+    a:hover {
+      opacity: .6;
+      transition: 0.3s;
+    }
+    a:active {
+      opacity: 1;
+      background-color: $pinktransp;
+      transition: 0.3s;
     }
   }
 }
@@ -876,7 +896,7 @@ nav {
     margin: 0 auto;
 
     .ec-cat {
-      max-width: 250px;
+      max-width: 260px;
       margin: 0 15px;
 
       .cat-name {
@@ -903,13 +923,13 @@ nav {
         }
 
         .ec-info {
-          width: 190px;
+          width: 200px;
 
           .title {
-            font-size: 12px;
+            font-size: 12.5px;
             letter-spacing: 0.2px;
             line-height: 15px;
-            margin-bottom: 3px;
+            margin-bottom: 4px;
             font-weight: 300;
           }
 
@@ -943,6 +963,7 @@ nav {
 
   .prof-header{ 
     max-width: 840px;
+    margin: 0 auto 30px;
   }
   
   .prof-body {
@@ -1002,3 +1023,28 @@ nav {
   
 }
 
+
+@media only screen and (max-width: 310px) {
+  
+  .prof-header{ 
+    .links {
+      .link {
+        .icon {
+          height: 31px;
+          margin-right: 18px;
+        }
+      }
+    }
+  }
+  
+}
+
+
+
+
+
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / P R O J E C T S / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
