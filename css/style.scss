@@ -217,7 +217,7 @@ nav {
         color: $darkpink;
         position: relative;
 
-        img {
+        svg {
           height: 31px;  
           display: block;
         }
@@ -320,7 +320,7 @@ nav {
           height: 31px;
           margin: 0 15px 0 0;
 
-          img {
+          svg {
             height: 31px;
           }
         }
@@ -356,7 +356,7 @@ nav {
         flex-wrap: wrap;
         justify-content: flex-start;
         margin: 0 0 20px 0;
-        height: 100px;;
+        height: 100px;
 
         .project-image {
           height: 100px;
@@ -412,7 +412,7 @@ nav {
           .icon {
             height: 31px;
 
-            img{
+            svg{
               height: 100%;
 
             }
@@ -821,7 +821,6 @@ nav {
 
         img{
           height: 100%;
-
         }
       }
     }
@@ -1048,3 +1047,454 @@ nav {
 / / / / / / P R O J E C T S / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
+
+.project-nav {
+  nav {
+    background-color: $greylight;
+
+    .navbar {
+      .name {
+        a {
+          color: $greydark;
+        }
+        a:hover {
+          color: $pink !important;
+        }
+        a:active {
+          color: $pink !important;
+        }
+        a:visited {
+          color: $greydark;
+        }
+      }
+
+      .icons {
+
+        a {
+          color: $greydark;
+          .overlay {
+            background-color: $greylight;
+          }
+          &:hover .overlay {
+          }
+          
+          svg {
+            path {
+              fill: $greydark;
+            }
+          }
+        }  
+
+        a:hover {
+          color: $greydark;
+        }
+        a:visited {
+          color: $greydark;
+        }
+        a:active {
+          color: $pink;
+        }
+      }
+    }
+
+    .sidebar {
+      background: $greylight;
+      border-left: 20px solid $greylight;
+
+      .mobile-nav {
+        .mobile-link {
+          border-top: 2px solid $greytransp;
+          
+          .mobile-nav-icon {
+            svg {
+              path {
+                fill: $greydark;
+              }
+            }
+          }
+        }
+          a:active {
+            background-color: $greytransp;
+          }
+      }
+
+      h3 {
+        color: $greydark;
+      }
+
+      .sidebar-body {
+          .title {
+            color: $greydark;
+          }
+          .type {
+            color: $greydark;
+          }
+        }
+      }
+
+      .sidebar-footer {
+        .links {
+          .icon {
+            svg {
+              path {
+                fill: $greydark;
+              }
+            }
+          }
+          a:active {
+            background-color: $greytransp;
+          }
+        }
+      }
+    }
+  }
+
+.bottom-line-project {
+  background-color: $greylight;
+  height: 20px;
+  width: 100%;
+  z-index: 4;
+  bottom: 0;
+  position: fixed;
+}
+
+
+
+.project {
+  color: $greydark;
+  border: 20px solid $greylight;
+  
+  .section {
+    padding: 50px 20px;
+    
+    h1 {
+      max-width: 600px;
+      color: $greydark;
+      margin: 40px auto 0;
+      font-size: 38px;
+      line-height: 44px;
+    }
+    
+    h2 {
+      max-width: 600px;
+      margin: 60px auto 20px;
+      color: $greydark;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: .7px;
+    }
+    
+    h3 {
+      max-width: 600px;
+      margin: 20px auto 0;
+      color: $greydark;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: .7px;
+    }
+    
+    .image-cont { 
+      display: block;
+      max-width: 800px;
+      margin: 40px auto;
+      
+      .image-1 {
+        width: 100%;
+        
+        img {
+          width: 100%;
+          height: 200px;
+          background-color: $greylight;
+        }
+      }
+
+      .image-2 {
+        width: 100%;
+        margin-bottom: 40px;
+
+        img {
+          width: 100%;
+          height: 200px;
+          background-color: $greylight;
+        }
+      }
+      
+      .caption {
+        margin: 10px auto 0;
+        max-width: 600px;
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 300;
+        color: $greymed;
+      }
+    }
+    
+    .paragraph {
+      margin: 40px auto;
+      max-width: 600px;
+      
+      p {
+        
+      }      
+    }
+    
+    .carousel-box {
+      width: 100%;
+      margin: 40px 0 60px;
+      .carousel {
+        margin: 0 auto;
+        max-width: 800px;
+        .image {
+          margin: 0 auto;
+          max-height: 500px;
+          img {
+            max-height: 500px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    
+    .linkybob {
+      max-width: 600px;
+      margin: 40px auto;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      
+      .link-box {
+        border: 2px solid $greydark;
+        border-radius: 7px;
+        padding: 7px 13px;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        
+        .link-text {
+          font-size: 18px;
+          text-transform: uppercase;
+          font-weight: 500;
+          padding: 6px 10px 0 0;
+        }
+        
+        .link-arrow {
+          height: 31px;
+          img {
+            height: 31px;
+          }
+        }
+      }
+      a:link {
+        text-decoration: none;
+        color: $greydark;
+        background-color: none;
+        transition: .4s ease;
+      }
+      a:active {
+        text-decoration: none;
+        color: $greydark;
+        background-color: $lightpink;
+        transition: .4s ease;
+      }
+      a:hover {
+        text-decoration: none;
+        color: $greydark;
+        background-color: $greylight;
+        transition: .4s ease;
+      }
+      a:visited {
+        text-decoration: none;
+        color: $greydark;
+        transition: .4s ease;
+      }
+    }
+    
+  }
+}
+
+
+
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+
+@media only screen and (min-width: 450px) {
+  .project {
+    .section {
+      padding: 50px;
+      
+      h1 {
+        font-size: 45px;
+        line-height: 50px;
+      }
+      h2 {
+        margin: 60px auto 20px;
+        font-size: 22px;
+        font-weight: 900;
+      }
+      h3 {
+        margin: 15px auto 0;
+        font-size: 22px;
+        font-weight: 900;
+      }
+      
+      .image-cont { 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .image-1 {
+          width: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .image-2 {
+          width: 47%;
+          margin-bottom: 0;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+            
+      .linkybob {
+
+        .link-box {
+          padding: 10px 18px;
+
+          .link-text {
+            font-size: 22px;
+            font-weight: 500;
+            padding: 3px 8px 0 0;
+          }
+
+          .link-arrow {
+            height: 31px;
+            img {
+              height: 31px;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .project {
+    .section {
+      padding: 100px 50px;
+      
+      h1 {
+        font-size: 55px;
+        line-height: 60px;
+      }
+      h2 {
+        margin: 60px auto 20px;
+        font-size: 25px;
+        font-weight: 900;
+      }
+      h3 {
+        margin: 20px auto 0;
+        font-size: 25px;
+        font-weight: 900;
+      }
+      
+      .image-cont { 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .image-1 {
+          width: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .image-2 {
+          width: 47%;
+          margin-bottom: 0;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+            
+      .linkybob {
+
+        .link-box {
+          padding: 12px 18px;
+
+          .link-text {
+            font-size: 24px;
+            font-weight: 500;
+            padding: 2px 10px 0 0;
+          }
+
+          .link-arrow {
+            height: 31px;
+            img {
+              height: 31px;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 360px) {
+
+  .project {
+    .section {
+      padding: 50px 20px;
+      
+      h1 {
+        font-size: 32px;
+        line-height: 38px;
+      }
+      h2 {
+        margin: 60px auto 20px;
+      }
+      h3 {
+        margin: 15px auto 0;
+      }
+      
+      .linkybob {
+
+        .link-box {
+          padding: 7px 13px;
+
+          .link-text {
+            font-size: 16px;
+            font-weight: 500;
+            padding: 4px 10px 0 0;
+          }
+
+          .link-arrow {
+            height: 25px;
+            img {
+              height: 25px;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  
+}

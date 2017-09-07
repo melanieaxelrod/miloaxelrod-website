@@ -9,134 +9,17 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/carousel.js"></script>
       
     <script src="https://use.typekit.net/fle5loy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 </head>
 <body>
   
- <nav>
-  <div class="navbar">
-    <div class="name">
-      <a href="index.html" ><div clas="milo">milo axelrod</div></a>
-    </div>
-   
-    <div class="icons">
-      <a href="profile.html" class="nav-icon not-mobile">
-        <img src="img/icons/profile.svg" />
-        <div class="overlay">
-          <div class="label">profile</div>
-        </div>
-      </a>
-      <a href="#" class="nav-icon not-mobile">
-        <img src="img/icons/contact.svg" />
-        <div class="overlay">
-          <div class="label">contact</div>
-        </div>
-      </a>
-      <a href="#" class="nav-icon sidebar-toggle-open not-mobile" >
-        <img src="img/icons/projects.svg" />
-        <div class="overlay">
-          <div class="label">projects</div>
-        </div>
-      </a>
-      <a href="#" class="nav-icon sidebar-toggle-open mobile" >
-        <img src="img/icons/hamburger.svg" />
-        <div class="overlay">
-          <div class="label">menu</div>
-        </div>
-      </a>
-    </div>
-  </div>
-    
-    <div class="sidebar navbar" >
-      
-    <div class="sidebar-topbit">  
-    <div class="name mobile">
-      <a href="#" ><div clas="milo">milo axelrod</div></a>
-    </div>
-      <div class="icons">
-        <a href="#" class="nav-icon sidebar-toggle-close">
-          <img src="img/icons/close.svg" />
-          <div class="overlay">
-            <div class="label">close</div>
-          </div>
-        </a>
-      </div>
-      </div>
-      
-      <div class="mobile-nav mobile">
-        <a href="profile.html" class="mobile-link mobile">
-          <div class="mobile-nav-icon"><img src="img/icons/profile.svg" /></div>
-          <h3>profile</h3>
-          <div class="mobile-nav-icon arrow"><img src="img/icons/arrow-r.svg" /></div>
-        </a>
-        <a href="#" class="mobile-link mobile">
-          <div class="mobile-nav-icon"><img src="img/icons/contact.svg" /></div>
-          <h3>contact</h3>
-          <div class="mobile-nav-icon arrow"><img src="img/icons/arrow-r.svg" /></div>
-        </a>
-        <div class="mobile-link mobile">
-          <div class="mobile-nav-icon"><img src="img/icons/projects.svg" /></div>
-          <h3>projects</h3>
-        </div>
-      </div>
-      
-    <h3 class="not-mobile">Projects</h3>
-    <div class="sidebar-body">
-      <div class="project-link">
-        <div class="project-image">
-          <img src="#" />
-        </div>
-        <div class="project-info">
-        <div class="title">Catskills Conf
- </div>
-        <div class="type">Branding & Website Design</div>
-          </div>
-      </div>
-      
-      <div class="project-link">
-        <div class="project-image">
-          <img src="#" />
-        </div>
-        <div class="project-info">
-        <div class="title">Midi Jardin
-</div>
-        <div class="type">Restaurant Brand</div>
-        </div>
-      </div>
-      
-      <div class="project-link">
-        <div class="project-image">
-          <img src="#" />
-        </div>
-        <div class="project-info">
-        <div class="title">Muuba
-</div>
-        <div class="type">Mobile App Design</div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="sidebar-footer">
-      <div class="links">
-        <a href="https://twitter.com/MelanieAxelrod" class="link" target="_blank">
-          <div class="icon"><img src="img/icons/twitter-dark.svg" /></div>
-        </a>
-        <a href="https://www.behance.net/MelanieAxelrod" class="link" target="_blank">
-          <div class="icon"><img src="img/icons/behance-dark.svg" /></div>
-        </a>
-        <a href="https://www.linkedin.com/in/melanieaxelrod/" class="link" target="_blank">
-          <div class="icon"><img src="img/icons/linkedin-dark.svg" /></div>
-        </a>
-        <a href="mailto:milo@axelrod.design" class="link" target="_blank">
-          <div class="icon"><img src="img/icons/email-dark.svg" /></div>
-        </a>
-      </div>
-    </div>
-    </div>
-  </nav>
+  <?php include 'header.php'; ?>
   <div class="bottom-line"></div>
   
   <div class="page">
