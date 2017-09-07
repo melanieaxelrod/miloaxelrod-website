@@ -18,7 +18,7 @@
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 </head>
-<body>
+<body class="">
   
 <div class="project-nav">
   <?php include 'header.php'; ?>
@@ -36,7 +36,7 @@
       </div>
       
       <div class="linkybob">
-        <a href="#" class="link-box">
+        <a href="#" class="link-box" target="_blank">
           <div class="link-text">
             Check out the website
           </div>
@@ -92,7 +92,7 @@
       </div>
 
          <div class="linkybob">
-        <a href="#" class="link-box">
+        <a href="#" class="link-box" target="_blank">
           <div class="link-text">
             Check out the website
           </div>

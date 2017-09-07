@@ -48,7 +48,7 @@ h2 {
 p {
   font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 31px;
   margin: 0 0 15px 0;
   
   a {
@@ -327,16 +327,43 @@ nav {
       }
       
       a {
-          transition: 0.3s;
-
+        transition: 0.3s;
+          h3 {
+            transition: 0.3s;
+            color: $darkpink;
+          }
+          svg {
+            path {
+              fill: $darkpink;
+              transition: 0.3s;
+            }
+          }
         }
         a:hover {
-          opacity: .6;
           transition: 0.3s;
+          h3 {
+            transition: 0.3s;
+            color: $pink;
+          }
+          svg {
+            path {
+              fill: $pink;
+              transition: 0.3s;
+            }
+          }
         }
         a:active {
-          background-color: $pinktransp;
           transition: 0.3s;
+          h3 {
+            transition: 0.3s;
+            color: $yellow;
+          }
+          svg {
+            path {
+              fill: $yellow;
+              transition: 0.3s;
+            }
+          }
         }
     }
     
@@ -414,24 +441,38 @@ nav {
 
             svg{
               height: 100%;
-
             }
           }
         }
-
         a {
           transition: 0.3s;
-
+          svg {
+            path {
+              fill: $darkpink;
+              transition: 0.3s;
+            }
+          }
         }
         a:hover {
-          opacity: .6;
           transition: 0.3s;
+          svg {
+            path {
+              fill: $pink;
+              transition: 0.3s;
+            }
+          }
         }
         a:active {
           opacity: 1;
-          background-color: $pinktransp;
           transition: 0.3s;
+          svg {
+            path {
+              fill: $yellow;
+              transition: 0.3s;
+            }
+          }
         }
+        
       }
     }
   }
@@ -1113,9 +1154,45 @@ nav {
             }
           }
         }
-          a:active {
-            background-color: $greytransp;
+           a {
+        transition: 0.3s;
+          h3 {
+            transition: 0.3s;
+            color: $greydark;
           }
+          svg {
+            path {
+              fill: $greydark;
+              transition: 0.3s;
+            }
+          }
+        }
+        a:hover {
+          transition: 0.3s;
+          h3 {
+            transition: 0.3s;
+            color: $greymed;
+          }
+          svg {
+            path {
+              fill: $greymed !important;
+              transition: 0.3s;
+            }
+          }
+        }
+        a:active {
+          transition: 0.3s;
+          h3 {
+            transition: 0.3s;
+            color: $pink;
+          }
+          svg {
+            path {
+              fill: $pink !important;
+              transition: 0.3s;
+            }
+          }
+        }
       }
 
       h3 {
@@ -1131,7 +1208,6 @@ nav {
           }
         }
       }
-
       .sidebar-footer {
         .links {
           .icon {
@@ -1141,9 +1217,34 @@ nav {
               }
             }
           }
-          a:active {
-            background-color: $greytransp;
+        a {
+          transition: 0.3s;
+          svg {
+            path {
+              fill: $greydark;
+              transition: 0.3s;
+            }
           }
+        }
+        a:hover {
+          transition: 0.3s;
+          svg {
+            path {
+              fill: $greymed;
+              transition: 0.3s;
+            }
+          }
+        }
+        a:active {
+          opacity: 1;
+          transition: 0.3s;
+          svg {
+            path {
+              fill: $pink;
+              transition: 0.3s;
+            }
+          }
+        }
         }
       }
     }
@@ -1163,6 +1264,25 @@ nav {
 .project {
   color: $greydark;
   border: 20px solid $greylight;
+  
+  p {
+    a {
+      background-color: $greytransp;
+      color: $greydark;
+      text-decoration: none;
+      padding: 0 5px;
+      border-radius: 5px;
+      transition: .4s ease;
+    }
+    a:hover {
+      color: $greymed;
+      transition: .4s ease;
+    }
+    a:active {
+      transition: .4s ease;
+      color: $pink;
+    }
+  }
   
   .section {
     padding: 50px 20px;
@@ -1197,7 +1317,7 @@ nav {
     
     .image-cont { 
       display: block;
-      max-width: 800px;
+      max-width: 1000px;
       margin: 40px auto;
       
       .image-1 {
@@ -1205,8 +1325,6 @@ nav {
         
         img {
           width: 100%;
-          height: 200px;
-          background-color: $greylight;
         }
       }
 
@@ -1216,8 +1334,6 @@ nav {
 
         img {
           width: 100%;
-          height: 200px;
-          background-color: $greylight;
         }
       }
       
@@ -1246,11 +1362,11 @@ nav {
       
       .carousel {
         margin: 0 auto;
-        max-width: 700px;
+        max-width: 900px;
         
         .image {
           margin: 0 auto;
-          max-width: 700px;
+          max-width: 900px;
           height: 100%;
           height: auto;
           
@@ -1503,4 +1619,15 @@ nav {
     }
   }
   
+}
+
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / C U S T O M I Z A T I O N S / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+
+.sleeping-bees {
+  background-image: url(../img/projects/sleeping-bees/bg.jpg);
+  background-attachment: fixed;
 }

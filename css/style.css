@@ -38,7 +38,7 @@ h2 {
 p {
   font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 31px;
   margin: 0 0 15px 0; }
   p a {
     background-color: rgba(246, 150, 121, 0.2);
@@ -234,12 +234,28 @@ nav {
             height: 31px; }
       nav .sidebar .mobile-nav a {
         transition: 0.3s; }
+        nav .sidebar .mobile-nav a h3 {
+          transition: 0.3s;
+          color: #F37A5C; }
+        nav .sidebar .mobile-nav a svg path {
+          fill: #F37A5C;
+          transition: 0.3s; }
       nav .sidebar .mobile-nav a:hover {
-        opacity: .6;
         transition: 0.3s; }
+        nav .sidebar .mobile-nav a:hover h3 {
+          transition: 0.3s;
+          color: #F69679; }
+        nav .sidebar .mobile-nav a:hover svg path {
+          fill: #F69679;
+          transition: 0.3s; }
       nav .sidebar .mobile-nav a:active {
-        background-color: rgba(246, 150, 121, 0.2);
         transition: 0.3s; }
+        nav .sidebar .mobile-nav a:active h3 {
+          transition: 0.3s;
+          color: #FFD64B; }
+        nav .sidebar .mobile-nav a:active svg path {
+          fill: #FFD64B;
+          transition: 0.3s; }
     nav .sidebar h3 {
       margin: 0 15px 0 0;
       color: #F37A5C;
@@ -297,13 +313,20 @@ nav {
               height: 100%; }
         nav .sidebar .sidebar-footer .links a {
           transition: 0.3s; }
+          nav .sidebar .sidebar-footer .links a svg path {
+            fill: #F37A5C;
+            transition: 0.3s; }
         nav .sidebar .sidebar-footer .links a:hover {
-          opacity: .6;
           transition: 0.3s; }
+          nav .sidebar .sidebar-footer .links a:hover svg path {
+            fill: #F69679;
+            transition: 0.3s; }
         nav .sidebar .sidebar-footer .links a:active {
           opacity: 1;
-          background-color: rgba(246, 150, 121, 0.2);
           transition: 0.3s; }
+          nav .sidebar .sidebar-footer .links a:active svg path {
+            fill: #FFD64B;
+            transition: 0.3s; }
 
 .sidebar-open .sidebar {
   right: 0;
@@ -658,8 +681,30 @@ nav {
       border-top: 2px solid rgba(60, 60, 60, 0.12); }
       .project-nav nav .sidebar .mobile-nav .mobile-link .mobile-nav-icon svg path {
         fill: #3C3C3C; }
+    .project-nav nav .sidebar .mobile-nav a {
+      transition: 0.3s; }
+      .project-nav nav .sidebar .mobile-nav a h3 {
+        transition: 0.3s;
+        color: #3C3C3C; }
+      .project-nav nav .sidebar .mobile-nav a svg path {
+        fill: #3C3C3C;
+        transition: 0.3s; }
+    .project-nav nav .sidebar .mobile-nav a:hover {
+      transition: 0.3s; }
+      .project-nav nav .sidebar .mobile-nav a:hover h3 {
+        transition: 0.3s;
+        color: #646464; }
+      .project-nav nav .sidebar .mobile-nav a:hover svg path {
+        fill: #646464 !important;
+        transition: 0.3s; }
     .project-nav nav .sidebar .mobile-nav a:active {
-      background-color: rgba(60, 60, 60, 0.12); }
+      transition: 0.3s; }
+      .project-nav nav .sidebar .mobile-nav a:active h3 {
+        transition: 0.3s;
+        color: #F69679; }
+      .project-nav nav .sidebar .mobile-nav a:active svg path {
+        fill: #F69679 !important;
+        transition: 0.3s; }
     .project-nav nav .sidebar h3 {
       color: #3C3C3C; }
     .project-nav nav .sidebar .sidebar-body .title {
@@ -668,8 +713,22 @@ nav {
       color: #3C3C3C; }
   .project-nav nav .sidebar-footer .links .icon svg path {
     fill: #3C3C3C; }
+  .project-nav nav .sidebar-footer .links a {
+    transition: 0.3s; }
+    .project-nav nav .sidebar-footer .links a svg path {
+      fill: #3C3C3C;
+      transition: 0.3s; }
+  .project-nav nav .sidebar-footer .links a:hover {
+    transition: 0.3s; }
+    .project-nav nav .sidebar-footer .links a:hover svg path {
+      fill: #646464;
+      transition: 0.3s; }
   .project-nav nav .sidebar-footer .links a:active {
-    background-color: rgba(60, 60, 60, 0.12); }
+    opacity: 1;
+    transition: 0.3s; }
+    .project-nav nav .sidebar-footer .links a:active svg path {
+      fill: #F69679;
+      transition: 0.3s; }
 
 .bottom-line-project {
   background-color: #E8E8E8;
@@ -682,6 +741,19 @@ nav {
 .project {
   color: #3C3C3C;
   border: 20px solid #E8E8E8; }
+  .project p a {
+    background-color: rgba(60, 60, 60, 0.12);
+    color: #3C3C3C;
+    text-decoration: none;
+    padding: 0 5px;
+    border-radius: 5px;
+    transition: .4s ease; }
+  .project p a:hover {
+    color: #646464;
+    transition: .4s ease; }
+  .project p a:active {
+    transition: .4s ease;
+    color: #F69679; }
   .project .section {
     padding: 50px 20px; }
     .project .section h1 {
@@ -708,21 +780,17 @@ nav {
       letter-spacing: .7px; }
     .project .section .image-cont {
       display: block;
-      max-width: 800px;
+      max-width: 1000px;
       margin: 40px auto; }
       .project .section .image-cont .image-1 {
         width: 100%; }
         .project .section .image-cont .image-1 img {
-          width: 100%;
-          height: 200px;
-          background-color: #E8E8E8; }
+          width: 100%; }
       .project .section .image-cont .image-2 {
         width: 100%;
         margin-bottom: 40px; }
         .project .section .image-cont .image-2 img {
-          width: 100%;
-          height: 200px;
-          background-color: #E8E8E8; }
+          width: 100%; }
       .project .section .image-cont .caption {
         margin: 10px auto 0;
         max-width: 600px;
@@ -738,10 +806,10 @@ nav {
       margin: 40px 0 60px; }
       .project .section .carousel-box .carousel {
         margin: 0 auto;
-        max-width: 700px; }
+        max-width: 900px; }
         .project .section .carousel-box .carousel .image {
           margin: 0 auto;
-          max-width: 700px;
+          max-width: 900px;
           height: 100%;
           height: auto; }
           .project .section .carousel-box .carousel .image img {
@@ -887,3 +955,11 @@ nav {
         height: 25px; }
         .project .section .linkybob .link-box .link-arrow img {
           height: 25px; } }
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / C U S T O M I Z A T I O N S / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+.sleeping-bees {
+  background-image: url(../img/projects/sleeping-bees/bg.jpg);
+  background-attachment: fixed; }
