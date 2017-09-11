@@ -77,18 +77,30 @@
       
     <h3 class="not-mobile">Projects</h3>
     <div class="sidebar-body">
-      <div class="project-link">
+      
+      <a href="catskills-conf.php" class="project-link">
         <div class="project-image">
           <img src="#" />
         </div>
         <div class="project-info">
         <div class="title">Catskills Conf
  </div>
-        <div class="type">Branding & Website Design</div>
+        <div class="type">Branding & Web Design</div>
           </div>
-      </div>
+      </a>
       
-      <div class="project-link">
+      <a href="sleeping-bees.php" class="project-link">
+        <div class="project-image">
+          <img src="#" />
+        </div>
+        <div class="project-info">
+        <div class="title">Sleeping Bees
+ </div>
+        <div class="type">BFA Thesis</div>
+          </div>
+      </a>
+      
+      <a href="midi-jardin.php" class="project-link">
         <div class="project-image">
           <img src="#" />
         </div>
@@ -97,19 +109,18 @@
 </div>
         <div class="type">Restaurant Brand</div>
         </div>
-      </div>
+      </a>
       
-      <div class="project-link">
+      <a href="sprites-n-dice.php" class="project-link">
         <div class="project-image">
           <img src="#" />
         </div>
         <div class="project-info">
-        <div class="title">Muuba
+        <div class="title">Sprites &amp; Dice
 </div>
-        <div class="type">Mobile App Design</div>
+        <div class="type">Website Brand</div>
         </div>
-      </div>
-    </div>
+      </a>
     
     <div class="sidebar-footer">
       <div class="links">

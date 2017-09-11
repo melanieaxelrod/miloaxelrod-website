@@ -35,6 +35,15 @@
         <p>Paragraph text Your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest. Each one recieves the love and care of a detailed research phase to ensure that the product we create together will not just be a great thing.</p>
       </div>
       
+      <div class="paragraph p-2col">
+        <div class="col">
+          <p>Paragraph text Your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest. Each one recieves the love and care of a detailed research phase to ensure that the product we create together will not just be a great thing.</p>
+        </div>
+        <div class="col">
+         <p>Paragraph text Your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest. Each one recieves the love and care of a detailed research phase to ensure that the product we create together will not just be a great thing.</p>
+        </div>
+      </div>
+      
       <div class="linkybob">
         <a href="#" class="link-box" target="_blank">
           <div class="link-text">

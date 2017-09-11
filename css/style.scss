@@ -73,11 +73,11 @@ p {
 }
 
 ::-moz-selection { 
-  background: $yellowtransp;
+  background: $lightpink;
   color: $darkpink;
 }
 ::selection { 
-  background: $yellowtransp; 
+  background: $lightpink; 
   color: $darkpink;
 }
   
@@ -1297,7 +1297,7 @@ nav {
     
     h2 {
       max-width: 600px;
-      margin: 60px auto 20px;
+      margin: 42px auto 20px;
       color: $greydark;
       font-size: 20px;
       text-transform: uppercase;
@@ -1313,6 +1313,16 @@ nav {
       text-transform: uppercase;
       font-weight: 900;
       letter-spacing: .7px;
+    }
+    
+    .spacer40 {
+      height: 40px;
+      width: 100%;
+    }
+    
+    .spacer80 {
+      height: 80px;
+      width: 100%;
     }
     
     .image-cont { 
@@ -1336,6 +1346,15 @@ nav {
           width: 100%;
         }
       }
+
+      .image-narrow {
+        max-width: 600px;
+        margin-bottom: 40px;
+
+        img {
+          width: 100%;
+        }
+      }
       
       .caption {
         margin: 10px auto 0;
@@ -1350,10 +1369,23 @@ nav {
     .paragraph {
       margin: 40px auto;
       max-width: 600px;
-      
       p {
-        
       }      
+    }
+    
+  @media only screen and (min-width: 980px) {
+      .p-2col {
+        margin: 40px auto;
+        max-width: 850px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .col {
+          max-width: 400px;
+          margin: 0 10px 20px;
+        }
+      }
     }
     
     .carousel-box {
@@ -1445,21 +1477,17 @@ nav {
 @media only screen and (min-width: 450px) {
   .project {
     .section {
-      padding: 50px 20px;
       
       h1 {
         font-size: 45px;
         line-height: 50px;
       }
       h2 {
-        margin: 60px auto 20px;
         font-size: 22px;
-        font-weight: 900;
       }
       h3 {
         margin: 15px auto 0;
         font-size: 22px;
-        font-weight: 900;
       }
       
       .image-cont { 
@@ -1521,12 +1549,9 @@ nav {
         line-height: 60px;
       }
       h2 {
-        margin: 60px auto 20px;
         font-size: 25px;
-        font-weight: 900;
       }
       h3 {
-        margin: 20px auto 0;
         font-size: 25px;
         font-weight: 900;
       }
@@ -1630,4 +1655,51 @@ nav {
 .sleeping-bees {
   background-image: url(../img/projects/sleeping-bees/bg.jpg);
   background-attachment: fixed;
+  
+  nav {
+    box-shadow: 0px 1px 0px #d9d9d9;
+    
+    .navbar {
+      .sidebar {
+        background: $greylight;
+        border-left: 20px solid $none;
+      }
+    }
+  }
+  
+  .bottom-line-project {
+    background-color: $none;
+    height: 20px;
+    width: 100%;
+    z-index: 4;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .project {
+    color: $greydark;
+    border: 20px solid $none;
+  }
+  
+  @media only screen and (min-width: 450px) {
+    nav {
+      .sidebar {
+        width: 280px;
+      }
+    }
+  } 
+  
+}
+
+
+.midi-jardin {
+  background-image: url(../img/projects/midi-jardin/bg.png);
+  background-size: contain ;
+  background-repeat: no-repeat;
+}
+
+.sprites-n-dice {
+  background-image: url(../img/projects/sprites-n-dice/bg.png);
+  background-size: contain ;
+  background-repeat: no-repeat;
 }

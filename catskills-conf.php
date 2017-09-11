@@ -29,7 +29,7 @@
     <div class="section last">
       
       <h1>Catskills Conf</h1>
-      <h3>Website Design</h3>
+      <h3>Branding &amp; Website Design</h3>
       
       <div class="paragraph">
         <p>Catskills Conf is a gathering of Technologists and Creators at a retreat in the foothills of the Catskill Mountains. Our goal is to bring people together to be inspired by a diverse program and the landscape of the Hudson Valley. We’ve crafted a unique experience that aims to energize and motivate all attendees.</p>
