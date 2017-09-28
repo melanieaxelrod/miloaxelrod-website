@@ -440,30 +440,90 @@ nav {
   border: 20px solid #FFE9E3;
   margin: 0;
   width: auto;
-  overflow: hidden; }
-  .page .splash {
+  overflow: hidden;
+  /*  .splash {
+      height: calc( 100vh - (180px + 40px ) );
+      padding: 90px 20px !important;
+      background-image: url(../img/splash.svg);
+      background-attachment: fixed;
+      background-size: cover;
+      border-bottom: 20px solid $lightpink;
+  
+        .intro {
+          max-width: 950px;
+          margin: 0 auto;
+  
+          .splash-text {
+            margin-bottom: 1em;
+            max-width: 600px;
+            font-size: 41px;
+            font-weight: 500;
+  
+            .text {
+              max-width: 600px;
+            }
+          }
+  
+          p {
+            max-width: 430px;
+            margin: 0 0 0 auto;
+            padding: 13px 20px;
+            border-radius: 6px;
+            background-color: $lighttransp;
+            font-weight: 300;
+            color: $dark;
+          }
+        }
+  
+      ::-moz-selection {
+        background: none;
+        color: $pink;
+        -webkit-text-fill-color: $pink;
+      }
+      ::selection {
+        background: none;
+        color: $pink;
+        -webkit-text-fill-color: $pink;
+      }
+    } */ }
+  .page .contact-section {
+    background-color: #FFE9E3;
+    padding-bottom: 40px !important;
+    padding-top: 60px !important; }
+  .page .parallax {
+    perspective: 1px;
     height: calc( 100vh - (180px + 40px ) );
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 90px 20px !important;
     background-image: url(../img/splash.svg);
-    background-attachment: fixed;
-    background-size: cover;
-    border-bottom: 20px solid #FFE9E3; }
-    .page .splash .intro {
+    background-size: cover; }
+    .page .parallax .parallax-layer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; }
+    .page .parallax .background {
+      transform: translateZ(-1px) scale(2); }
+      .page .parallax .background .image {
+        width: 100px;
+        height: 100px; }
+        .page .parallax .background .image img {
+          width: 100%;
+          height: 100%; }
+    .page .parallax .text {
+      transform: translateZ(0);
       max-width: 950px;
       margin: 0 auto; }
-      .page .splash .intro .splash-text {
-        /*      background-size: 1px 1em;
-                box-shadow:
-                  inset 0 -0.175em $white,
-                  inset 0 -0.42em $lighttransp;
-                display: inline; */
+      .page .parallax .text .splash-text {
         margin-bottom: 1em;
         max-width: 600px;
         font-size: 41px;
         font-weight: 500; }
-        .page .splash .intro .splash-text .text {
+        .page .parallax .text .splash-text .text {
           max-width: 600px; }
-      .page .splash .intro p {
+      .page .parallax .text p {
         max-width: 430px;
         margin: 0 0 0 auto;
         padding: 13px 20px;
@@ -471,18 +531,6 @@ nav {
         background-color: rgba(152, 164, 184, 0.2);
         font-weight: 300;
         color: #585F6C; }
-    .page .splash ::-moz-selection {
-      background: none;
-      color: #F69679;
-      -webkit-text-fill-color: #F69679; }
-    .page .splash ::selection {
-      background: none;
-      color: #F69679;
-      -webkit-text-fill-color: #F69679; }
-  .page .contact-section {
-    background-color: #FFE9E3;
-    padding-bottom: 40px !important;
-    padding-top: 60px !important; }
   .page .section {
     /*    border-bottom: 20px solid $lightpink; */
     padding: 60px 20px;
@@ -637,97 +685,119 @@ nav {
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
 @media only screen and (min-width: 450px) {
-  .page .splash {
-    height: calc( 100vh - (240px + 40px ) );
-    padding: 120px 20px !important; }
-    .page .splash .intro .splash-text {
-      font-size: 48px;
-      font-weight: 500;
-      max-width: 550px; }
-      .page .splash .intro .splash-text .text {
-        max-width: 450px;
-        margin: 0 auto; }
-  .page .section {
-    padding: 100px 20px; }
-    .page .section .services .service {
-      margin: 20px 15px; }
-    .page .section .contact .col .image {
-      height: 170px;
-      display: none; }
-      .page .section .contact .col .image img {
-        height: 170px; }
-    .page .section .what-i-do .copy {
-      padding: 25px 35px 15px; }
-    .page .section .what-i-do .image img {
-      height: 270px; } }
+  .page {
+    /*  .splash {
+        height: calc( 100vh - (240px + 40px ) );
+        padding: 120px 20px !important;
+    
+        .intro {
+    
+          .splash-text {
+            font-size: 48px;
+            font-weight: 500;
+            max-width: 550px;
+    
+            .text {
+              max-width: 450px;
+              margin: 0 auto;
+            }
+          }
+        }
+      } */ }
+    .page .section {
+      padding: 100px 20px; }
+      .page .section .services .service {
+        margin: 20px 15px; }
+      .page .section .contact .col .image {
+        height: 170px;
+        display: none; }
+        .page .section .contact .col .image img {
+          height: 170px; }
+      .page .section .what-i-do .copy {
+        padding: 25px 35px 15px; }
+      .page .section .what-i-do .image img {
+        height: 270px; } }
 @media only screen and (min-width: 768px) {
+  /*
   #transport::before {
     margin: -50px 0 0 -100px;
     content: " ";
     background-image: url(../img/illus/splash/rocket.svg);
     height: 100px;
     width: 100px;
-    position: absolute; }
-
+    position: absolute;
+  }
+  
   #transport::after {
     margin: 40px 0 0 40px;
     content: " ";
     background-image: url(../img/illus/splash/plane.svg);
     height: 100px;
     width: 100px;
-    position: absolute; }
-
+    position: absolute;
+  }
+  
   #veg::before {
     margin: -50px 0 0 -150px;
     content: " ";
     background-image: url(../img/illus/splash/bananas.svg);
     height: 100px;
     width: 100px;
-    position: absolute; }
-
+    position: absolute;
+  }
+  
   #veg::after {
     margin: 70px 0 0 150px;
     content: " ";
     background-image: url(../img/illus/splash/leaf.svg);
     height: 100px;
     width: 100px;
-    position: absolute; }
-
-  .page .splash {
-    height: calc( 100vh - (260px + 40px ) );
-    padding: 130px 20px !important; }
-    .page .splash .intro .splash-text {
-      font-size: 74px;
-      font-weight: 300;
-      max-width: 600px; }
-      .page .splash .intro .splash-text .text {
-        max-width: 600px; }
-  .page .section {
-    padding: 100px 50px; }
-    .page .section .copy-2 {
-      max-width: 530px; }
-    .page .section .services #lineguy::before {
-      content: " ";
-      background-color: #FFE9E3;
-      height: 2px;
-      width: 2000px;
-      margin: -2px 0 0 -1800px; }
-    .page .section .services .service {
-      margin: 20px 25px; }
-    .page .section .contact {
-      display: flex; }
-      .page .section .contact .col {
-        max-width: 350px; }
-        .page .section .contact .col .image {
-          height: 170px;
-          display: block; }
-          .page .section .contact .col .image img {
-            height: 170px; }
-      .page .section .contact .links {
-        margin-top: 0;
-        justify-content: flex-end; }
-    .page .section .what-i-do .copy {
-      padding: 35px 45px 25px; } }
+    position: absolute;
+  }  */
+  .page {
+    /*  .splash {
+        height: calc( 100vh - (260px + 40px ) );
+        padding: 130px 20px !important;
+    
+        .intro {
+    
+          .splash-text {
+            font-size: 74px;
+            font-weight: 300;
+            max-width: 600px;
+    
+            .text {
+              max-width: 600px;
+            }
+          }
+        }
+      } */ }
+    .page .section {
+      padding: 100px 50px; }
+      .page .section .copy-2 {
+        max-width: 530px; }
+      .page .section .services #lineguy::before {
+        content: " ";
+        background-color: #FFE9E3;
+        height: 2px;
+        width: 2000px;
+        margin: -2px 0 0 -1800px; }
+      .page .section .services .service {
+        margin: 20px 25px; }
+      .page .section .contact {
+        display: flex; }
+        .page .section .contact .col {
+          max-width: 350px; }
+          .page .section .contact .col .image {
+            height: 170px;
+            display: block; }
+            .page .section .contact .col .image img {
+              height: 170px; }
+        .page .section .contact .links {
+          margin-top: 0;
+          justify-content: flex-end; }
+      .page .section .what-i-do .copy {
+        padding: 35px 45px 25px; } }
 @media only screen and (min-width: 1000px) {
   .page .section .contact .col {
     max-width: 450px; }
@@ -751,14 +821,22 @@ nav {
   .page .section .what-i-do .right h2 {
     margin-right: auto; } }
 @media only screen and (max-width: 400px) {
-  .page .splash .intro .splash-text {
-    font-size: 36px;
-    font-weight: 500; }
-  .page .section {
-    padding: 50px 20px; }
-    .page .section .what-i-do .image img {
-      height: 190px;
-      min-width: 100px; } }
+  .page {
+    /*   .splash {
+    
+         .intro {
+    
+           .splash-text {
+             font-size: 36px;
+             font-weight: 500;
+           }
+         }
+       } */ }
+    .page .section {
+      padding: 50px 20px; }
+      .page .section .what-i-do .image img {
+        height: 190px;
+        min-width: 100px; } }
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / P R O F I L E / / / / / / /
