@@ -671,13 +671,6 @@ nav {
           .text {
             max-width: 600px;
           }
-
-          .splash-text::before {
-            content: " ";
-            height: 30px;
-            width: 30px;
-            background-color: $pink;
-          }
         }
 
         p {
@@ -948,6 +941,7 @@ nav {
 }
 
 
+
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
@@ -1027,6 +1021,42 @@ nav {
 }
 
 @media only screen and (min-width: 768px) {
+
+#transport::before {
+  margin: -50px 0 0 -100px;
+  content: " ";
+  background-image: url(../img/illus/splash/rocket.svg);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+#transport::after {
+  margin: 40px 0 0 40px;
+  content: " ";
+  background-image: url(../img/illus/splash/plane.svg);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+#veg::before {
+  margin: -50px 0 0 -150px;
+  content: " ";
+  background-image: url(../img/illus/splash/bananas.svg);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+#veg::after {
+  margin: 70px 0 0 150px;
+  content: " ";
+  background-image: url(../img/illus/splash/leaf.svg);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}  
 
 .page {
 

@@ -28,11 +28,11 @@
   <div class="section splash">
     <div class="intro">
       <div class="splash-text">
-        <div class="text">
+        <div class="text" id="transport">
           I’m a freelance graphic designer.
         </div>
       </div>
-      <p>
+      <p id="veg">
         Based in New Paltz, NY, I like looking at rocks, eating plants I found on the ground, and high-quality speakers. I also really like my job. Lets work together.
       </p>
     </div>

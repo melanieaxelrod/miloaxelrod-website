@@ -463,11 +463,6 @@ nav {
         font-weight: 500; }
         .page .splash .intro .splash-text .text {
           max-width: 600px; }
-        .page .splash .intro .splash-text .splash-text::before {
-          content: " ";
-          height: 30px;
-          width: 30px;
-          background-color: #F69679; }
       .page .splash .intro p {
         max-width: 430px;
         margin: 0 0 0 auto;
@@ -666,6 +661,38 @@ nav {
     .page .section .what-i-do .image img {
       height: 270px; } }
 @media only screen and (min-width: 768px) {
+  #transport::before {
+    margin: -50px 0 0 -100px;
+    content: " ";
+    background-image: url(../img/illus/splash/rocket.svg);
+    height: 100px;
+    width: 100px;
+    position: absolute; }
+
+  #transport::after {
+    margin: 40px 0 0 40px;
+    content: " ";
+    background-image: url(../img/illus/splash/plane.svg);
+    height: 100px;
+    width: 100px;
+    position: absolute; }
+
+  #veg::before {
+    margin: -50px 0 0 -150px;
+    content: " ";
+    background-image: url(../img/illus/splash/bananas.svg);
+    height: 100px;
+    width: 100px;
+    position: absolute; }
+
+  #veg::after {
+    margin: 70px 0 0 150px;
+    content: " ";
+    background-image: url(../img/illus/splash/leaf.svg);
+    height: 100px;
+    width: 100px;
+    position: absolute; }
+
   .page .splash {
     height: calc( 100vh - (260px + 40px ) );
     padding: 130px 20px !important; }
