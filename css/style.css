@@ -3,15 +3,6 @@
 / / / M i l o's C l u b h o u s e / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
-/*
-$dark: #65544F;
-$light: #b2a39e;
-
-$greydark: #585F6C;
-$greymed: #9CA5B4;
-$greylight: #EAEDF1;
-$greytransp: rgba(152, 164, 184, 0.2);
-*/
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / G E N E R A L / / / / / /
@@ -388,12 +379,12 @@ nav {
         nav .sidebar .sidebar-footer .links a {
           transition: 0.3s; }
           nav .sidebar .sidebar-footer .links a svg path {
-            fill: #F37A5C;
+            fill: #F69679;
             transition: 0.3s; }
         nav .sidebar .sidebar-footer .links a:hover {
           transition: 0.3s; }
           nav .sidebar .sidebar-footer .links a:hover svg path {
-            fill: #F69679;
+            fill: #F37A5C;
             transition: 0.3s; }
         nav .sidebar .sidebar-footer .links a:active {
           opacity: 1;
@@ -664,37 +655,43 @@ nav {
     .page .section .what-i-do .image img {
       height: 270px; } }
 @media only screen and (min-width: 768px) {
-  #transport::before {
-    margin: -50px 0 0 -100px;
-    content: " ";
-    background-image: url(../img/illus/splash/rocket.svg);
-    height: 100px;
-    width: 100px;
-    position: absolute; }
+  .floaters {
+    height: 100hv;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0; }
+    .floaters .floaty {
+      position: absolute; }
+      .floaters .floaty image {
+        width: 100px;
+        height: 100px; }
+        .floaters .floaty image img {
+          width: 100%;
+          height: 100%; }
+    .floaters #rocket {
+      top: 6vw;
+      left: 7%;
+      width: 100px;
+      height: 100px; }
+    .floaters #plane {
+      top: 280px;
+      left: 75%;
+      width: 100px;
+      height: 100px; }
+    .floaters #bananas {
+      top: 370px;
+      left: 23%;
+      width: 100px;
+      height: 100px; }
+    .floaters #leaf {
+      top: 570px;
+      left: 80%;
+      width: 100px;
+      height: 100px; }
 
-  #transport::after {
-    margin: 40px 0 0 40px;
-    content: " ";
-    background-image: url(../img/illus/splash/plane.svg);
-    height: 100px;
-    width: 100px;
-    position: absolute; }
-
-  #veg::before {
-    margin: -50px 0 0 -150px;
-    content: " ";
-    background-image: url(../img/illus/splash/bananas.svg);
-    height: 100px;
-    width: 100px;
-    position: absolute; }
-
-  #veg::after {
-    margin: 70px 0 0 250px;
-    content: " ";
-    background-image: url(../img/illus/splash/leaf.svg);
-    height: 100px;
-    width: 100px;
-    position: absolute; }
+  .fadein {
+    display: none; }
 
   .page .splash {
     height: calc( 100vh - (260px + 40px ) );
@@ -732,6 +729,27 @@ nav {
     .page .section .what-i-do .copy {
       padding: 35px 45px 25px; } }
 @media only screen and (min-width: 1000px) {
+  .floaters #rocket {
+    top: 5vw;
+    left: 7%;
+    width: 100px;
+    height: 100px; }
+  .floaters #plane {
+    top: 280px;
+    left: 60%;
+    width: 100px;
+    height: 100px; }
+  .floaters #bananas {
+    top: 370px;
+    left: 37%;
+    width: 100px;
+    height: 100px; }
+  .floaters #leaf {
+    top: 570px;
+    left: 80%;
+    width: 100px;
+    height: 100px; }
+
   .page .section .contact .col {
     max-width: 450px; }
     .page .section .contact .col .image {
@@ -1168,6 +1186,45 @@ nav {
         text-decoration: none;
         color: #3C3C3C;
         transition: .4s ease; }
+  .project .footer {
+    margin: 0;
+    width: auto;
+    overflow: hidden;
+    background-color: #e8e8e8;
+    border-top: 0px solid #646464;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .project .footer .side {
+      padding: 7px 0 0;
+      width: 45%; }
+      .project .footer .side .links {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap; }
+        .project .footer .side .links .link {
+          line-height: 16px;
+          font-size: 14px; }
+          .project .footer .side .links .link .text {
+            padding-left: 16px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 16px; }
+          .project .footer .side .links .link a {
+            text-decoration: none;
+            color: #b7b7b7; }
+          .project .footer .side .links .link a:hover {
+            color: #646464;
+            text-decoration: none; }
+          .project .footer .side .links .link a:active {
+            color: #3C3C3C;
+            text-decoration: none; }
+    .project .footer .leftside .copy {
+      color: #b7b7b7;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 16px; }
 
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
@@ -1294,3 +1351,59 @@ nav {
   background-image: url(../img/projects/sprites-n-dice/bg.png);
   background-size: contain;
   background-repeat: no-repeat; }
+
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / F 0 0 T E R / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+.footer {
+  margin: 0;
+  width: auto;
+  overflow: hidden;
+  background-color: #FFE9E3;
+  border-top: 0px solid #ffc8ba;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .footer .side {
+    padding: 10px 0 0;
+    width: 45%; }
+    .footer .side .links {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap; }
+      .footer .side .links .link {
+        line-height: 16px;
+        font-size: 14px; }
+        .footer .side .links .link .text {
+          padding-left: 16px;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 16px; }
+        .footer .side .links .link a {
+          text-decoration: none;
+          color: #ffc8ba; }
+        .footer .side .links .link a:hover {
+          color: #F69679;
+          text-decoration: none; }
+        .footer .side .links .link a:active {
+          color: #F37A5C;
+          text-decoration: none; }
+  .footer .leftside .copy {
+    color: #ffc8ba;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px; }
+
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+@media only screen and (min-width: 450px) {
+  .footer {
+    padding: 0 20px; } }
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 0 50px; } }

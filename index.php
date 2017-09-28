@@ -11,6 +11,8 @@
     <script src="js/sidebar.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/scrollreveal.js"></script>
+    <script src="js/scrollspeed.js"></script>
+    <script src="js/fadein.js"></script>
 
     <script src="https://use.typekit.net/fle5loy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -36,6 +38,29 @@
       <p id="veg">
         Based in New Paltz, NY, I like looking at rocks, eating plants I found on the ground, and high-quality speakers. I also really like my job. Lets work together.
       </p>
+    </div>
+  </div>
+
+  <div class="floaters fadein">
+    <div class="floaty" id="rocket" data-scroll-speed="4">
+      <div class="image">
+        <img src="img/illus/splash/rocket.svg" />
+      </div>
+    </div>
+    <div class="floaty" id="plane" data-scroll-speed="3">
+      <div class="image">
+        <img src="img/illus/splash/plane.svg" />
+      </div>
+    </div>
+    <div class="floaty" id="bananas" data-scroll-speed="3">
+      <div class="image">
+        <img src="img/illus/splash/bananas.svg" />
+      </div>
+    </div>
+    <div class="floaty" id="leaf" data-scroll-speed="2">
+      <div class="image">
+        <img src="img/illus/splash/leaf.svg" />
+      </div>
     </div>
   </div>
 
@@ -161,6 +186,9 @@
           <a href="https://www.behance.net/MelanieAxelrod" class="link" target="_blank">
             <div class="icon"><img src="img/icons/behance.svg" /></div>
           </a>
+          <a href="https://miloaxelrod.tumblr.com/" class="link" target="_blank">
+            <div class="icon"><img src="img/icons/tumblr.svg" /></div>
+          </a>
           <a href="https://www.linkedin.com/in/melanieaxelrod/" class="link" target="_blank">
             <div class="icon"><img src="img/icons/linkedin.svg" /></div>
           </a>
@@ -171,9 +199,12 @@
     </div>
   </div>
 
+  </div>
+
+  <?php include 'footer.php'; ?>
 
   </div>
-  </div>
+
 
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </body>

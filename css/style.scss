@@ -532,7 +532,7 @@ nav {
           transition: 0.3s;
           svg {
             path {
-              fill: $darkpink;
+              fill: $pink;
               transition: 0.3s;
             }
           }
@@ -541,7 +541,7 @@ nav {
           transition: 0.3s;
           svg {
             path {
-              fill: $pink;
+              fill: $darkpink;
               transition: 0.3s;
             }
           }
@@ -889,6 +889,8 @@ nav {
       }
     }
 
+
+
     .what-i-do {
       margin: 50px auto;
       max-width: 900px;
@@ -1025,40 +1027,59 @@ nav {
 
 @media only screen and (min-width: 768px) {
 
-#transport::before {
-  margin: -50px 0 0 -100px;
-  content: " ";
-  background-image: url(../img/illus/splash/rocket.svg);
-  height: 100px;
-  width: 100px;
-  position: absolute;
+.floaters {
+  height: 100hv;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+
+    .floaty {
+      position: absolute;
+
+
+      image {
+        width: 100px;
+        height: 100px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    #rocket {
+      top: 6vw;
+      left: 7%;
+      width: 100px;
+      height: 100px;
+    }
+
+    #plane {
+      top: 280px;
+      left: 75%;
+      width: 100px;
+      height: 100px;
+    }
+
+    #bananas {
+      top: 370px;
+      left: 23%;
+      width: 100px;
+      height: 100px;
+    }
+
+    #leaf {
+      top: 570px;
+      left: 80%;
+      width: 100px;
+      height: 100px;
+    }
 }
 
-#transport::after {
-  margin: 40px 0 0 40px;
-  content: " ";
-  background-image: url(../img/illus/splash/plane.svg);
-  height: 100px;
-  width: 100px;
-  position: absolute;
-}
-
-#veg::before {
-  margin: -50px 0 0 -150px;
-  content: " ";
-  background-image: url(../img/illus/splash/bananas.svg);
-  height: 100px;
-  width: 100px;
-  position: absolute;
-}
-
-#veg::after {
-  margin: 70px 0 0 250px;
-  content: " ";
-  background-image: url(../img/illus/splash/leaf.svg);
-  height: 100px;
-  width: 100px;
-  position: absolute;
+.fadein {
+  display: none;
 }
 
 .page {
@@ -1150,6 +1171,38 @@ nav {
 }
 
 @media only screen and (min-width: 1000px) {
+
+.floaters {
+
+    #rocket {
+      top: 5vw;
+      left: 7%;
+      width: 100px;
+      height: 100px;
+    }
+
+    #plane {
+      top: 280px;
+      left: 60%;
+      width: 100px;
+      height: 100px;
+    }
+
+    #bananas {
+      top: 370px;
+      left: 37%;
+      width: 100px;
+      height: 100px;
+    }
+
+    #leaf {
+      top: 570px;
+      left: 80%;
+      width: 100px;
+      height: 100px;
+    }
+}
+
   .page {
     .section {
 
@@ -1905,6 +1958,69 @@ nav {
     }
 
   }
+
+  .footer {
+    margin: 0;
+    width: auto;
+    overflow: hidden;
+    background-color: $greylight;
+    border-top: 0px solid $greymed;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .side {
+      padding: 7px 0 0;
+      width: 45%;
+
+
+      .links {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+
+        .link {
+          line-height: 16px;
+          font-size: 14px;
+
+          .text {
+            padding-left: 16px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 16px;
+          }
+
+          a {
+            text-decoration: none;
+            color: $greymedlight;
+          }
+          a:hover {
+            color: $greymed;
+            text-decoration: none;
+          }
+          a:active {
+            color: $greydark;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .leftside {
+
+      .copy {
+        color: $greymedlight;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+
+    .rightside {
+    }
+  }
 }
 
 
@@ -2141,4 +2257,95 @@ nav {
   background-image: url(../img/projects/sprites-n-dice/bg.png);
   background-size: contain ;
   background-repeat: no-repeat;
+}
+
+
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / F 0 0 T E R / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+
+.footer {
+  margin: 0;
+  width: auto;
+  overflow: hidden;
+  background-color: $lightpink;
+  border-top: 0px solid $medpink;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .side {
+    padding: 10px 0 0;
+    width: 45%;
+
+
+    .links {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+
+      .link {
+        line-height: 16px;
+        font-size: 14px;
+
+        .text {
+          padding-left: 16px;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 16px;
+        }
+
+        a {
+          text-decoration: none;
+          color: $medpink;
+        }
+        a:hover {
+          color: $pink;
+          text-decoration: none;
+        }
+        a:active {
+          color: $darkpink;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .leftside {
+
+    .copy {
+      color: $medpink;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  .rightside {
+  }
+}
+
+/*/ / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / / /
+/ / / / / / / / / / / / / / / / / / /*/
+
+@media only screen and (min-width: 450px) {
+
+  .footer {
+    padding: 0 20px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .footer {
+    padding: 0 50px;
+  }
+
 }

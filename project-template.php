@@ -114,6 +114,7 @@
       <div class="spacer80"></div>
 
     </div>
+    <?php include 'footer.php'; ?>
   </div>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
