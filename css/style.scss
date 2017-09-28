@@ -649,9 +649,8 @@ nav {
     height: calc( 100vh - (180px + 40px ) );
     padding: 90px 20px !important;
     background-image: url(../img/splash.svg);
-    background-attachment: fixed;
     background-size: cover;
-    border-bottom: 20px solid $lightpink;
+    border-bottom: 60px solid $lightpink;
 
       .intro {
         max-width: 950px;
@@ -933,37 +932,13 @@ nav {
 
   .home-content {
     z-index: 2;
+    background-image: url(../img/footer-topper.svg);
+    background-position: bottom left;
+    background-size: cover;
 
     .linkybob {
       margin-top: 0;
-    }
-  }
-}
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-
-  .parallax-layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-    .foreground {
-      transform: translateZ(0);
-    }
-    .background {
-      transform: translateZ(-1px) scale(2);
-    }
-
-    .parallax-group {
-      position: relative;
-      height: 100vh;
-      transform-style: preserve-3d;
+      margin-bottom: 60px;
     }
   }
 }
@@ -1270,6 +1245,9 @@ nav {
 / / / / / / P R O F I L E / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
+
+.profile {
+}
 
 .prof-header{
   max-width: 600px;

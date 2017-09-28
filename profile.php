@@ -23,7 +23,7 @@
   <div class="bottom-line"></div>
 
   <div class="page">
-    <div class="section last">
+    <div class="section last profile">
 
       <div class="prof-header">
         <h1 class="name">

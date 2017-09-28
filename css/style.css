@@ -445,9 +445,8 @@ nav {
     height: calc( 100vh - (180px + 40px ) );
     padding: 90px 20px !important;
     background-image: url(../img/splash.svg);
-    background-attachment: fixed;
     background-size: cover;
-    border-bottom: 20px solid #FFE9E3; }
+    border-bottom: 60px solid #FFE9E3; }
     .page .splash .intro {
       max-width: 950px;
       margin: 0 auto; }
@@ -629,29 +628,13 @@ nav {
       .page .section .what-i-do .right {
         margin-left: auto; }
   .page .home-content {
-    z-index: 2; }
+    z-index: 2;
+    background-image: url(../img/footer-topper.svg);
+    background-position: bottom left;
+    background-size: cover; }
     .page .home-content .linkybob {
-      margin-top: 0; }
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto; }
-  .parallax .parallax-layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; }
-    .parallax .parallax-layer .foreground {
-      transform: translateZ(0); }
-    .parallax .parallax-layer .background {
-      transform: translateZ(-1px) scale(2); }
-    .parallax .parallax-layer .parallax-group {
-      position: relative;
-      height: 100vh;
-      transform-style: preserve-3d; }
+      margin-top: 0;
+      margin-bottom: 60px; }
 
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /

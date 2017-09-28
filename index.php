@@ -25,11 +25,8 @@
 
   <div class="page">
 
-<div class="parallax">
-  <div class="parallax-layer background"
-  </div>
 
-  <div class="section splash home parallax-layer foreground">
+  <div class="section splash home">
     <div class="intro">
       <div class="splash-text">
         <div class="text" id="transport">
@@ -42,8 +39,7 @@
     </div>
   </div>
 
-  <div class="section home-content parallax-layer foreground">
-
+  <div class="section home-content">
     <div class="my-services">
       <div class="header1">
         <h1 class="underline">I do a lot of stuff.</h1>
@@ -134,11 +130,7 @@
         <div class="link-arrow"><img src="img/icons/arrow-r-light.svg" /></div>
       </a>
     </div>
-
   </div>
-
-</div>
-</div>
 
   <div class="section last contact-section">
     <div class="contact">
