@@ -940,6 +940,34 @@ nav {
   }
 }
 
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .foreground {
+      transform: translateZ(0);
+    }
+    .background {
+      transform: translateZ(-1px) scale(2);
+    }
+
+    .parallax-group {
+      position: relative;
+      height: 100vh;
+      transform-style: preserve-3d;
+    }
+  }
+}
+
 
 
 /*/ / / / / / / / / / / / / / / / / / /

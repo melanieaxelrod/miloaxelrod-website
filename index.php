@@ -25,8 +25,11 @@
 
   <div class="page">
 
+<div class="parallax">
+  <div class="parallax-layer background"
+  </div>
 
-  <div class="section splash">
+  <div class="section splash home parallax-layer foreground">
     <div class="intro">
       <div class="splash-text">
         <div class="text" id="transport">
@@ -39,79 +42,86 @@
     </div>
   </div>
 
-    <div class="section home-content">
+  <div class="section home-content parallax-layer foreground">
+
     <div class="my-services">
-    <div class="header1">
-      <h1 class="underline">I do a lot of stuff.</h1>
-    </div>
+      <div class="header1">
+        <h1 class="underline">I do a lot of stuff.</h1>
+      </div>
 
       <div class="services flexmom">
-      <div class="service flexbaby flexmom reveal" id="lineguy">
-        <div class="image"><img src="img/illus/d_ux.svg" /></div>
-        <div class="service-name">
-          User Experience
+        <div class="service flexbaby flexmom reveal" id="lineguy">
+          <div class="image"><img src="img/illus/d_ux.svg" /></div>
+          <div class="service-name">
+            User Experience
+          </div>
+        </div>
+        <div class="service flexbaby flexmom reveal">
+          <div class="image"><img src="img/illus/d_web.svg" /></div>
+          <div class="service-name">
+            Web Design
+          </div>
+        </div>
+        <div class="service flexbaby flexmom reveal" id="lineguy">
+          <div class="image"><img src="img/illus/d_brand.svg" /></div>
+          <div class="service-name">
+            Branding
+          </div>
+        </div>
+        <div class="service flexbaby flexmom reveal">
+          <div class="image"><img src="img/illus/d_print.svg" /></div>
+          <div class="service-name">
+            Print Design
+          </div>
+        </div>
+        <div class="service flexbaby flexmom reveal" id="lineguy">
+          <div class="image"><img src="img/illus/d_pres.svg" /></div>
+          <div class="service-name">
+            Presentations
+          </div>
+        </div>
+        <div class="service flexbaby flexmom reveal">
+          <div class="image"><img src="img/illus/d_illus.svg" /></div>
+          <div class="service-name">
+            Illustration
+          </div>
         </div>
       </div>
-      <div class="service flexbaby flexmom reveal">
-        <div class="image"><img src="img/illus/d_web.svg" /></div>
-        <div class="service-name">
-          Web Design
-        </div>
-      </div>
-      <div class="service flexbaby flexmom reveal" id="lineguy">
-        <div class="image"><img src="img/illus/d_brand.svg" /></div>
-        <div class="service-name">
-          Branding
-        </div>
-      </div>
-      <div class="service flexbaby flexmom reveal">
-        <div class="image"><img src="img/illus/d_print.svg" /></div>
-        <div class="service-name">
-          Print Design
-        </div>
-      </div>
-      <div class="service flexbaby flexmom reveal" id="lineguy">
-        <div class="image"><img src="img/illus/d_pres.svg" /></div>
-        <div class="service-name">
-          Presentations
-        </div>
-      </div>
-      <div class="service flexbaby flexmom reveal">
-        <div class="image"><img src="img/illus/d_illus.svg" /></div>
-        <div class="service-name">
-          Illustration
-        </div>
-      </div>
-    </div>
     </div>
 
 <div class="spacer80"></div>
 
     <div class="what-i-do">
-    <div class="header1">
-      <h1 class="underline">Here's how I work.</h1>
-    </div>
-    <div class="copy reveal left">
-      <h2>You're beautifully unique.</h2>
-      <p>You're project is like no other and deserves to be treats like the individual it is. Working with me will never be a cookie-cutter experience.</p>
-    </div>
-    <div class="image reveal right"><img src="img/illus/unique.svg" alt="An illustration of five little blobby people with unique characteristics."/></div>
-    </div>
-
-  <div class="what-i-do">
-    <div class="copy reveal right">
-      <h2>It's about the user.</h2>
-      <p>Your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest.</p>
-    </div>
-      <div class="image reveal left"><img src="img/illus/the-user.svg" alt="An illustration of an archetypal user with a content expression, wearing a crown and holding a laptop in the left hand and a smartphone in the right."/></div>
+      <div class="header1">
+        <h1 class="underline">Here's how I work.</h1>
+      </div>
+      <div class="copy reveal left">
+        <h2>You're beautifully unique.</h2>
+        <p>You're project is like no other and deserves to be treats like the individual it is. Working with me will never be a cookie-cutter experience.</p>
+      </div>
+      <div class="image reveal right">
+        <img src="img/illus/unique.svg" alt="An illustration of five little blobby people with unique characteristics."/>
+      </div>
     </div>
 
     <div class="what-i-do">
-    <div class="copy reveal left">
-      <h2>Research is key.</h2>
-      <p>Each project recieves the love and care of a detailed research phase to ensure that the product we create together will not just be a great thing, but the right thing.</p>
+      <div class="copy reveal right">
+        <h2>It's about the user.</h2>
+        <p>Your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest.</p>
+      </div>
+      <div class="image reveal left">
+        <img src="img/illus/the-user.svg" alt="An illustration of an archetypal user with a content expression, wearing a crown and holding a laptop in the left hand and a smartphone in the right."/>
+      </div>
     </div>
-    <div class="image reveal right"><img src="img/illus/research.svg" alt="An illustration of a person viewed from above, sitting at a laptop with sticky notes, papers, and pens strewn about."/></div>
+
+    <div class="what-i-do">
+      <div class="copy reveal left">
+        <h2>Research is key.</h2>
+        <p>Each project recieves the love and care of a detailed research phase to ensure that the product we create together will not just be a great thing, but the right thing.</p>
+      </div>
+      <div class="image reveal right">
+        <img src="img/illus/research.svg" alt="An illustration of a person viewed from above, sitting at a laptop with sticky notes, papers, and pens strewn about."/>
+      </div>
     </div>
 
 <div class="spacer20"></div>
@@ -124,7 +134,11 @@
         <div class="link-arrow"><img src="img/icons/arrow-r-light.svg" /></div>
       </a>
     </div>
+
   </div>
+
+</div>
+</div>
 
   <div class="section last contact-section">
     <div class="contact">
