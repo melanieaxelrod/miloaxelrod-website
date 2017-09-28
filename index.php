@@ -25,7 +25,7 @@
 
   <div class="page">
 
-<!--
+
   <div class="section splash">
     <div class="intro">
       <div class="splash-text">
@@ -37,24 +37,7 @@
         Based in New Paltz, NY, I like looking at rocks, eating plants I found on the ground, and high-quality speakers. I also really like my job. Lets work together.
       </p>
     </div>
-  </div> -->
-
-  <div class="section parallax">
-    <div class="parallax-layer text">
-      <div class="splash-text">
-        <div class="text" id="transport">
-          I’m a freelance graphic designer.
-        </div>
-        <p id="veg">
-          Based in New Paltz, NY, I like looking at rocks, eating plants I found on the ground, and high-quality speakers. I also really like my job. Lets work together.
-        </p>
-      </div>
-    </div>
-    <div class="parallax-layer background">
-      <div class="image">
-        <img src="img/illus/splash/bananas.svg" />
-      </div>
-    </div>
+  </div>
 
     <div class="section home-content">
     <div class="my-services">
@@ -142,8 +125,6 @@
       </a>
     </div>
   </div>
-
-</div>
 
   <div class="section last contact-section">
     <div class="contact">
