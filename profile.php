@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>milo axelrod</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />    
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/sidebar.js"></script>
     <script src="js/carousel.js"></script>
-      
+
     <script src="https://use.typekit.net/fle5loy.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    
+
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 </head>
 <body>
-  
+
   <?php include 'header.php'; ?>
   <div class="bottom-line"></div>
-  
+
   <div class="page">
     <div class="section last">
-      
+
       <div class="prof-header">
         <h1 class="name">
           milo axelrod
         </h1>
         <div class="links">
-            <a href="https://twitter.com/MelanieAxelrod" class="link" target="_blank">
+            <a href="https://twitter.com/MelanieAxelrod" class="link" target="_blank" title="twitter">
               <div class="icon"><img src="img/icons/twitter.svg" /></div>
             </a>
-            <a href="https://www.behance.net/MelanieAxelrod" class="link" target="_blank">
+            <a href="https://www.behance.net/MelanieAxelrod" class="link" target="_blank" title="Behance">
               <div class="icon"><img src="img/icons/behance.svg" /></div>
             </a>
-            <a href="https://www.linkedin.com/in/melanieaxelrod/" class="link" target="_blank">
+            <a href="https://www.linkedin.com/in/melanieaxelrod/" class="link" target="_blank" title="LinkedIn">
               <div class="icon"><img src="img/icons/linkedin.svg" /></div>
             </a>
-            <a href="mailto:milo@axelrod.design" class="link" target="_blank">
+            <a href="https://miloaxelrod.tumblr.com/" class="link" target="_blank" title="tumblr">
+              <div class="icon"><img src="img/icons/tumblr.svg" /></div>
+            </a>
+            <a href="mailto:milo@axelrod.design" class="link" target="_blank" title="email">
               <div class="icon"><img src="img/icons/email.svg" /></div>
             </a>
           </div>
       </div>
-      
+
       <div class="prof-body">
-        
+
       <div class="ec">
         <div class="ec-cat">
           <div class="cat-name">
             speaking
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               07.29.17
@@ -66,7 +69,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               06.23.17
@@ -80,7 +83,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               03.21.1
@@ -94,7 +97,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               02.16.17
@@ -108,7 +111,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               10.26.16
@@ -122,20 +125,20 @@
               </p>
             </div>
           </div>
-            
+
         </div>
         <div class="ec-cat hide">
           <div class="cat-name">
             learning
           </div>
-          
+
       </div>
-        
+
         <div class="ec-cat">
           <div class="cat-name">
             reading
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               currently
@@ -149,7 +152,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               up next
@@ -163,7 +166,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               finished
@@ -177,7 +180,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               finished
@@ -191,7 +194,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               finished
@@ -205,7 +208,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               finished
@@ -219,7 +222,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               finished
@@ -233,7 +236,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               finished
@@ -247,7 +250,7 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
               finished
@@ -261,25 +264,25 @@
               </p>
             </div>
           </div>
-          
+
           <div class="ec-item">
             <div class="label">
-              
+
             </div>
             <div class="ec-info">
               <div class="title">
                 . . .
               </div>
               <p class="credit">
-                
+
               </p>
             </div>
           </div>
         </div>
       </div>
-        
+
         <div class="about">
-          
+
           <div class="bio">
             <div class="cat-name">
               about
@@ -289,19 +292,19 @@
             </div>
             <div class="descript">
               <p>
-                Formerly known as Melanie. Hailing from upstate New York and descended from vikings (probably), Milo is a versatile graphic designer with a passion for all things creative. She was born hungry for knowledge and strives to constantly push and question her own boundaries. With engineering as a base to her graphic design BFA, she uses both mindsets in the pursuit of innovative solutions for every problem she can get her hands on.
+                Formerly known as Melanie. Hailing from upstate New York and descended from vikings (probably), She's a versatile graphic designer with the best job in the world. She was born hungry for knowledge and is always pushing and questioning her own boundaries. With engineering as a base to her graphic design BFA, She uses both mindsets to try and solve every problem she can get her hands on, whether anybody asked her to or not.
               </p>
               <p>
-                She spends the rest of her time playing tenor guitar, reading scifi and obscure non-fiction, &amp; tasting plants found in questionable locations. She likes to do household DIY fixes using mostly twine (and mostly succeeds), and hopes to one day have two apartments instead of just one.
+                She spends the rest of her time playing tenor guitar, reading scifi and obscure non-fiction, &amp; tasting plants found in questionable locations. She likes to do DIY fixes using mostly twine (and mostly succeed) and enjoys hyper-analyzing her life and <a href="https://miloaxelrod.tumblr.com/" target="_blank">writing</a> about it.
               </p>
             </div>
           </div>
         </div>
-      
+
       </div>
-      
+
     </div>
   </div>
-  
+
 </body>
 </html>
