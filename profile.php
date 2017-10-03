@@ -9,6 +9,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/scroll-lock.js"></script>
     <script src="js/carousel.js"></script>
 
     <script src="https://use.typekit.net/fle5loy.js"></script>
@@ -288,7 +289,7 @@
               about
             </div>
             <div class="prof-pic">
-              <img src="img/selfie.png">
+              <img src="img/selfie.png" alt="A photo of me. I'm caucasian and have very short blond hair that shwooshes up like a tidal wave. I have a nice smile and almost circular glasses that have caused some of my friends to refer to me as Blond Harry Potter. I'm wearing a black v-neck sweater and am sitting next to a very large plant that I think of as my friend. In the background you can see some books on a shelf and my guitar.">
             </div>
             <div class="descript">
               <p>

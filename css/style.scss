@@ -190,7 +190,7 @@ p {
   }
 
   .not-mobile {
-    display: inherit;
+    display: block;
   }
 
 }
@@ -239,7 +239,7 @@ nav {
   height: 50px;
   background-color: $lightpink;
   padding: 0 0px;
-  z-index: 4;
+  z-index: 10;
   position: fixed;
   top: 0;
 
@@ -466,7 +466,7 @@ nav {
         .project-image {
           height: 100px;
           width: 100px;
-          background-color: white;
+          background-color: none;
           margin-right: 20px;
 
           img {
@@ -494,6 +494,22 @@ nav {
 
       .bottom-space {
         margin: 0 0 60px 0;
+      }
+
+      a {
+        transition: 0.3s;
+        background-color: $lightpink;
+        border-radius: 5px;
+      }
+
+      a:hover {
+        transition: 0.3s;
+        background-color: rgba( $white, .45 );
+      }
+
+      a:active {
+        transition: 0.3s;
+        background-color: rgba( $medpink, .6 );
       }
     }
 
@@ -571,7 +587,7 @@ nav {
   background-color: $lightpink;
   height: 20px;
   width: 100%;
-  z-index: 4;
+  z-index: 999;
   bottom: 0;
   position: fixed;
 }
@@ -945,6 +961,42 @@ nav {
   }
 }
 
+.floaters {
+  display: none;
+  .floaty {
+    display: none;
+  }
+}
+
+.scroll-down {
+  display: block;
+  height: 100hv;
+  width: 100%;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+
+    .arrow {
+      display: block;
+      position: relative;
+      top: 91vh;
+      left: calc( 50vw - 60px );
+      width: 60px;
+      height: 20px;
+
+
+      .image {
+        width: 60px;
+        height: 20px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
 
 
 /*/ / / / / / / / / / / / / / / / / / /
@@ -952,6 +1004,10 @@ nav {
 / / / / / / / / / / / / / / / / / / /*/
 
 @media only screen and (min-width: 450px) {
+
+.floaters {
+  display: none;
+}
 
 .page {
 
@@ -1028,6 +1084,7 @@ nav {
 @media only screen and (min-width: 768px) {
 
 .floaters {
+  display: block;
   height: 100hv;
   width: 100%;
   z-index: -1;
@@ -1035,10 +1092,11 @@ nav {
   top: 0;
 
     .floaty {
+      display: block;
       position: absolute;
 
 
-      image {
+      .image {
         width: 100px;
         height: 100px;
 
@@ -1077,6 +1135,8 @@ nav {
       height: 100px;
     }
 }
+
+
 
 .fadein {
   display: none;
@@ -1173,6 +1233,7 @@ nav {
 @media only screen and (min-width: 1000px) {
 
 .floaters {
+  display: block;
 
     #rocket {
       top: 5vw;
@@ -1613,6 +1674,14 @@ nav {
       background: $greylight;
       border-left: 20px solid $greylight;
 
+      .topbit-container {
+        position: fixed;
+        top: 0;
+        width: calc(100% - 40px);
+        height: 50px;
+        background-color: $greylight;
+      }
+
       .mobile-nav {
         .mobile-link {
           border-top: 2px solid $greytransp;
@@ -1671,15 +1740,38 @@ nav {
       }
 
       .sidebar-body {
+
+        .project-link{
+
           .title {
             color: $greydark;
           }
+
           .type {
             color: $greydark;
           }
         }
+
+        a {
+          transition: 0.3s;
+          background-color: $greylight;
+          border-radius: 5px;
+        }
+
+        a:hover {
+          transition: 0.3s;
+          background-color: rgba( $white, .45 );
+        }
+
+        a:active {
+          transition: 0.3s;
+          background-color: rgba( $greymedlight, .4 );
+        }
+        }
       }
       .sidebar-footer {
+        background-color: $greylight;
+
         .links {
           .icon {
             svg {

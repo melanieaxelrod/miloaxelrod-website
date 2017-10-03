@@ -9,6 +9,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/scroll-lock.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/scrollreveal.js"></script>
     <script src="js/scrollspeed.js"></script>
@@ -64,6 +65,14 @@
     </div>
   </div>
 
+  <div class="scroll-down">
+    <div class="arrow" data-scroll-speed="19">
+      <div class="image">
+        <img src="img/scroll-down.svg" />
+      </div>
+    </div>
+  </div>
+
   <div class="section home-content">
     <div class="my-services">
       <div class="header1">
@@ -72,37 +81,37 @@
 
       <div class="services flexmom">
         <div class="service flexbaby flexmom reveal" id="lineguy">
-          <div class="image"><img src="img/illus/d_ux.svg" /></div>
+          <div class="image"><img src="img/illus/d_ux.svg" alt="icon of a happy person"/></div>
           <div class="service-name">
             User Experience
           </div>
         </div>
         <div class="service flexbaby flexmom reveal">
-          <div class="image"><img src="img/illus/d_web.svg" /></div>
+          <div class="image"><img src="img/illus/d_web.svg" alt="icon of a web page"/></div>
           <div class="service-name">
             Web Design
           </div>
         </div>
         <div class="service flexbaby flexmom reveal" id="lineguy">
-          <div class="image"><img src="img/illus/d_brand.svg" /></div>
+          <div class="image"><img src="img/illus/d_brand.svg" alt="icon of a shield and ribbon logo"/></div>
           <div class="service-name">
             Branding
           </div>
         </div>
         <div class="service flexbaby flexmom reveal">
-          <div class="image"><img src="img/illus/d_print.svg" /></div>
+          <div class="image"><img src="img/illus/d_print.svg" alt="icon of a paper fortune teller, the kind you used to play with in elementry school"/></div>
           <div class="service-name">
             Print Design
           </div>
         </div>
         <div class="service flexbaby flexmom reveal" id="lineguy">
-          <div class="image"><img src="img/illus/d_pres.svg" /></div>
+          <div class="image"><img src="img/illus/d_pres.svg" alt="icon of a slide on a projector"/></div>
           <div class="service-name">
             Presentations
           </div>
         </div>
         <div class="service flexbaby flexmom reveal">
-          <div class="image"><img src="img/illus/d_illus.svg" /></div>
+          <div class="image"><img src="img/illus/d_illus.svg" alt="icon of a hand holding a pencil triumphantly"/></div>
           <div class="service-name">
             Illustration
           </div>
@@ -141,7 +150,7 @@
         <p>Each project recieves the love and care of a detailed research phase to ensure that the product we create together will not just be a great thing, but the right thing.</p>
       </div>
       <div class="image reveal right">
-        <img src="img/illus/research.svg" alt="An illustration of a person viewed from above, sitting at a laptop with sticky notes, papers, and pens strewn about."/>
+        <img src="img/illus/research.svg" alt="An illustration of myself, viewed from above, sitting at a laptop with sticky notes, papers, and pens strewn about. I am evidently doing research."/>
       </div>
     </div>
 
@@ -177,7 +186,7 @@
     </div>
     <div class="col">
       <div class="image">
-        <img src="img/illus/envelope-white.svg" />
+        <img src="img/illus/envelope-white.svg" alt="A cute illustration of an envelope with three stamps. The sender must have been excited."/>
       </div>
       <div class="links">
           <a href="https://twitter.com/MelanieAxelrod" class="link" target="_blank">

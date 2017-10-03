@@ -146,7 +146,7 @@ p {
     display: none; }
 
   .not-mobile {
-    display: inherit; } }
+    display: block; } }
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 64px; }
@@ -175,7 +175,7 @@ nav {
   height: 50px;
   background-color: #FFE9E3;
   padding: 0 0px;
-  z-index: 4;
+  z-index: 10;
   position: fixed;
   top: 0; }
   nav .navbar {
@@ -333,7 +333,7 @@ nav {
         nav .sidebar .sidebar-body .project-link .project-image {
           height: 100px;
           width: 100px;
-          background-color: white;
+          background-color: none;
           margin-right: 20px; }
           nav .sidebar .sidebar-body .project-link .project-image img {
             height: 100px;
@@ -352,6 +352,16 @@ nav {
           letter-spacing: 0.3px; }
       nav .sidebar .sidebar-body .bottom-space {
         margin: 0 0 60px 0; }
+      nav .sidebar .sidebar-body a {
+        transition: 0.3s;
+        background-color: #FFE9E3;
+        border-radius: 5px; }
+      nav .sidebar .sidebar-body a:hover {
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 0.45); }
+      nav .sidebar .sidebar-body a:active {
+        transition: 0.3s;
+        background-color: rgba(255, 200, 186, 0.6); }
     nav .sidebar .sidebar-footer {
       position: fixed;
       bottom: 15px;
@@ -401,7 +411,7 @@ nav {
   background-color: #FFE9E3;
   height: 20px;
   width: 100%;
-  z-index: 4;
+  z-index: 999;
   bottom: 0;
   position: fixed; }
 
@@ -627,10 +637,39 @@ nav {
       margin-top: 0;
       margin-bottom: 60px; }
 
+.floaters {
+  display: none; }
+  .floaters .floaty {
+    display: none; }
+
+.scroll-down {
+  display: block;
+  height: 100hv;
+  width: 100%;
+  z-index: 5;
+  position: absolute;
+  top: 0; }
+  .scroll-down .arrow {
+    display: block;
+    position: relative;
+    top: 91vh;
+    left: calc( 50vw - 60px );
+    width: 60px;
+    height: 20px; }
+    .scroll-down .arrow .image {
+      width: 60px;
+      height: 20px; }
+      .scroll-down .arrow .image img {
+        width: 100%;
+        height: 100%; }
+
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
 @media only screen and (min-width: 450px) {
+  .floaters {
+    display: none; }
+
   .page .splash {
     height: calc( 100vh - (240px + 40px ) );
     padding: 120px 20px !important; }
@@ -656,17 +695,19 @@ nav {
       height: 270px; } }
 @media only screen and (min-width: 768px) {
   .floaters {
+    display: block;
     height: 100hv;
     width: 100%;
     z-index: -1;
     position: fixed;
     top: 0; }
     .floaters .floaty {
+      display: block;
       position: absolute; }
-      .floaters .floaty image {
+      .floaters .floaty .image {
         width: 100px;
         height: 100px; }
-        .floaters .floaty image img {
+        .floaters .floaty .image img {
           width: 100%;
           height: 100%; }
     .floaters #rocket {
@@ -729,26 +770,28 @@ nav {
     .page .section .what-i-do .copy {
       padding: 35px 45px 25px; } }
 @media only screen and (min-width: 1000px) {
-  .floaters #rocket {
-    top: 5vw;
-    left: 7%;
-    width: 100px;
-    height: 100px; }
-  .floaters #plane {
-    top: 280px;
-    left: 60%;
-    width: 100px;
-    height: 100px; }
-  .floaters #bananas {
-    top: 370px;
-    left: 37%;
-    width: 100px;
-    height: 100px; }
-  .floaters #leaf {
-    top: 570px;
-    left: 80%;
-    width: 100px;
-    height: 100px; }
+  .floaters {
+    display: block; }
+    .floaters #rocket {
+      top: 5vw;
+      left: 7%;
+      width: 100px;
+      height: 100px; }
+    .floaters #plane {
+      top: 280px;
+      left: 60%;
+      width: 100px;
+      height: 100px; }
+    .floaters #bananas {
+      top: 370px;
+      left: 37%;
+      width: 100px;
+      height: 100px; }
+    .floaters #leaf {
+      top: 570px;
+      left: 80%;
+      width: 100px;
+      height: 100px; }
 
   .page .section .contact .col {
     max-width: 450px; }
@@ -967,6 +1010,12 @@ nav {
   .project-nav nav .sidebar {
     background: #e8e8e8;
     border-left: 20px solid #e8e8e8; }
+    .project-nav nav .sidebar .topbit-container {
+      position: fixed;
+      top: 0;
+      width: calc(100% - 40px);
+      height: 50px;
+      background-color: #e8e8e8; }
     .project-nav nav .sidebar .mobile-nav .mobile-link {
       border-top: 2px solid rgba(60, 60, 60, 0.12); }
       .project-nav nav .sidebar .mobile-nav .mobile-link .mobile-nav-icon svg path {
@@ -997,28 +1046,40 @@ nav {
         transition: 0.3s; }
     .project-nav nav .sidebar h3 {
       color: #3C3C3C; }
-    .project-nav nav .sidebar .sidebar-body .title {
+    .project-nav nav .sidebar .sidebar-body .project-link .title {
       color: #3C3C3C; }
-    .project-nav nav .sidebar .sidebar-body .type {
+    .project-nav nav .sidebar .sidebar-body .project-link .type {
       color: #3C3C3C; }
-  .project-nav nav .sidebar-footer .links .icon svg path {
-    fill: #3C3C3C; }
-  .project-nav nav .sidebar-footer .links a {
-    transition: 0.3s; }
-    .project-nav nav .sidebar-footer .links a svg path {
-      fill: #3C3C3C;
+    .project-nav nav .sidebar .sidebar-body a {
+      transition: 0.3s;
+      background-color: #e8e8e8;
+      border-radius: 5px; }
+    .project-nav nav .sidebar .sidebar-body a:hover {
+      transition: 0.3s;
+      background-color: rgba(255, 255, 255, 0.45); }
+    .project-nav nav .sidebar .sidebar-body a:active {
+      transition: 0.3s;
+      background-color: rgba(183, 183, 183, 0.4); }
+  .project-nav nav .sidebar-footer {
+    background-color: #e8e8e8; }
+    .project-nav nav .sidebar-footer .links .icon svg path {
+      fill: #3C3C3C; }
+    .project-nav nav .sidebar-footer .links a {
       transition: 0.3s; }
-  .project-nav nav .sidebar-footer .links a:hover {
-    transition: 0.3s; }
-    .project-nav nav .sidebar-footer .links a:hover svg path {
-      fill: #646464;
+      .project-nav nav .sidebar-footer .links a svg path {
+        fill: #3C3C3C;
+        transition: 0.3s; }
+    .project-nav nav .sidebar-footer .links a:hover {
       transition: 0.3s; }
-  .project-nav nav .sidebar-footer .links a:active {
-    opacity: 1;
-    transition: 0.3s; }
-    .project-nav nav .sidebar-footer .links a:active svg path {
-      fill: #F69679;
+      .project-nav nav .sidebar-footer .links a:hover svg path {
+        fill: #646464;
+        transition: 0.3s; }
+    .project-nav nav .sidebar-footer .links a:active {
+      opacity: 1;
       transition: 0.3s; }
+      .project-nav nav .sidebar-footer .links a:active svg path {
+        fill: #F69679;
+        transition: 0.3s; }
 
 .bottom-line-project {
   background-color: #e8e8e8;

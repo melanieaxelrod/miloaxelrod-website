@@ -77,12 +77,13 @@
         </div>
       </div>
 
+    <!-- "Projects" doesn't show up because there's no margin top -->
     <h3 class="not-mobile">Projects</h3>
     <div class="sidebar-body">
 
       <a href="catskills-conf.php" class="project-link">
         <div class="project-image">
-          <img src="#" />
+          <img src="img/projects/catskills-conf.svg" />
         </div>
         <div class="project-info">
         <div class="title">Catskills Conf
@@ -93,7 +94,7 @@
 
       <a href="sleeping-bees.php" class="project-link">
         <div class="project-image">
-          <img src="#" />
+          <img src="img/projects/sleeping-bees.svg" />
         </div>
         <div class="project-info">
         <div class="title">Sleeping Bees
@@ -104,7 +105,7 @@
 
       <a href="midi-jardin.php" class="project-link">
         <div class="project-image">
-          <img src="#" />
+          <img src="img/projects/midi-jardin.svg" />
         </div>
         <div class="project-info">
         <div class="title">Midi Jardin
@@ -115,7 +116,7 @@
 
       <a href="sprites-n-dice.php" class="project-link">
         <div class="project-image">
-          <img src="#" />
+          <img src="img/projects/sprites-n-dice.svg" />
         </div>
         <div class="project-info">
         <div class="title">Sprites &amp; Dice
@@ -126,7 +127,7 @@
 
       <a href="presentations.php" class="project-link bottom-space">
         <div class="project-image">
-          <img src="#" />
+          <img src="img/projects/pres.svg" />
         </div>
         <div class="project-info">
         <div class="title">Presentations

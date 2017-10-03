@@ -9,6 +9,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/scroll-lock.js"></script>
     <script src="js/carousel.js"></script>
 
     <script src="https://use.typekit.net/fle5loy.js"></script>
@@ -81,7 +82,7 @@
           <img src="img/projects/catskills-conf/thank-you.png" />
         </div>
       </div>
-   
+
     </div>
     <?php include 'footer.php'; ?>
   </div>
