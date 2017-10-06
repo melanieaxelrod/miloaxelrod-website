@@ -35,7 +35,7 @@ h1 {
   font-weight: 300;
   color: $dark;
   font-size: 42px;
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
 }
 
 h2 {
@@ -215,13 +215,28 @@ p {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   p {
     font-size: 17px;
     line-height: 26px;
     margin: 0 0 5px 0;
+  }
+
+  .spacer20 {
+    height: 10px;
+    width: 100%;
+  }
+
+  .spacer40 {
+    height: 20px;
+    width: 100%;
+  }
+
+  .spacer80 {
+    height: 40px;
+    width: 100%;
   }
 
 }
@@ -630,11 +645,8 @@ nav {
 @media only screen and (max-width: 370px) {
 
   nav {
-
     .navbar {
-
      .icons {
-
       a {
         margin-left: 17px;
         }
@@ -644,7 +656,22 @@ nav {
 
 }
 
+@media only screen and (max-width: 400px) {
 
+  .bottom-line{
+    height: 0;
+  }
+
+
+  .sidebar-footer {
+    bottom: 0 !important;
+
+    .links {
+      margin-bottom: 5px;
+    }
+  }
+
+}
 
 
 
@@ -662,8 +689,8 @@ nav {
   overflow: hidden;
 
   .splash {
-    height: calc( 100vh - (180px + 40px ) );
-    padding: 90px 20px !important;
+    height: calc( 100vh - (200px + 40px ) );
+    padding: 100px 20px;
     background-image: url(../img/splash.svg);
     background-size: cover;
     border-bottom: 60px solid $lightpink;
@@ -673,11 +700,6 @@ nav {
         margin: 0 auto;
 
         .splash-text {
-  /*      background-size: 1px 1em;
-          box-shadow:
-            inset 0 -0.175em $white,
-            inset 0 -0.42em $lighttransp;
-          display: inline; */
           margin-bottom: 1em;
           max-width: 600px;
           font-size: 41px;
@@ -689,7 +711,7 @@ nav {
         }
 
         p {
-          max-width: 430px;
+          max-width: 410px;
           margin: 0 0 0 auto;
           padding: 13px 20px;
           border-radius: 6px;
@@ -713,13 +735,11 @@ nav {
 
   .contact-section {
     background-color: $lightpink;
-    padding-bottom: 40px !important;
-    padding-top: 60px !important;
+    padding: 60px 20px 40px;
   }
 
   .section{
 /*    border-bottom: 20px solid $lightpink; */
-    padding: 60px 20px;
     margin: 0 auto;
 
     .copy-1 {
@@ -918,9 +938,8 @@ nav {
       }
 
       .copy {
-        margin-top: 50px;
         max-width: 500px;
-        padding: 15px 15px 5px;
+        padding: 17px 17px 10px;
         border: 2px solid $dark;
         border-radius: 3px;
         background-color: $lighttransp;
@@ -929,6 +948,7 @@ nav {
 
       .image {
         margin-top: -30px;
+        margin-bottom: 50px;
         width: 400px;
 
 
@@ -953,6 +973,8 @@ nav {
     background-image: url(../img/footer-topper.svg);
     background-position: bottom left;
     background-size: cover;
+    background-color: $white;
+    padding: 60px 20px;
 
     .linkybob {
       margin-top: 0;
@@ -970,8 +992,6 @@ nav {
 
 .scroll-down {
   display: block;
-  height: 100hv;
-  width: 100%;
   z-index: 5;
   position: absolute;
   top: 0;
@@ -1013,7 +1033,7 @@ nav {
 
   .splash {
     height: calc( 100vh - (240px + 40px ) );
-    padding: 120px 20px !important;
+    padding: 120px 20px;
 
     .intro {
 
@@ -1028,6 +1048,14 @@ nav {
         }
       }
     }
+  }
+
+  .contact-section{
+    padding: 100px 20px;
+  }
+
+  .home-content {
+      padding: 100px 20px;
   }
 
   .section{
@@ -1079,6 +1107,8 @@ nav {
   }
 }
 
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -1105,6 +1135,16 @@ nav {
           height: 100%;
         }
       }
+
+      .image-s {
+        width: 60px;
+        height: 60px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
     }
 
     #rocket {
@@ -1114,6 +1154,13 @@ nav {
       height: 100px;
     }
 
+    #rocket-lines {
+      top: 7vw;
+      left: 22%;
+      width: 60px;
+      height: 60px;
+    }
+
     #plane {
       top: 280px;
       left: 75%;
@@ -1121,11 +1168,25 @@ nav {
       height: 100px;
     }
 
+    #plane-lines {
+      top: 190px;
+      left: 70%;
+      width: 60px;
+      height: 60px;
+    }
+
     #bananas {
       top: 370px;
       left: 23%;
       width: 100px;
       height: 100px;
+    }
+
+    #bananas-lines {
+      top: 450px;
+      left: 12%;
+      width: 60px;
+      height: 60px;
     }
 
     #leaf {
@@ -1146,7 +1207,7 @@ nav {
 
   .splash {
     height: calc( 100vh - (260px + 40px ) );
-    padding: 130px 20px !important;
+    padding: 130px 20px;
 
     .intro {
 
@@ -1162,8 +1223,15 @@ nav {
     }
   }
 
-  .section{
+  .contact-section{
     padding: 100px 50px;
+  }
+
+  .home-content{
+    padding: 100px 50px;
+  }
+
+  .section{
 
     .copy-2 {
       max-width: 530px;
@@ -1228,6 +1296,12 @@ nav {
   }
 }
 
+.scroll-down {
+    .arrow {
+      top: 93vh;
+    }
+  }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -1242,11 +1316,25 @@ nav {
       height: 100px;
     }
 
+    #rocket-lines {
+      top: 4vw;
+      left: 18%;
+      width: 60px;
+      height: 60px;
+    }
+
     #plane {
-      top: 280px;
-      left: 60%;
+      top: 240px;
+      left: 70%;
       width: 100px;
       height: 100px;
+    }
+
+    #plane-lines {
+      top: 170px;
+      left: 60%;
+      width: 60px;
+      height: 60px;
     }
 
     #bananas {
@@ -1256,9 +1344,16 @@ nav {
       height: 100px;
     }
 
+    #bananas-lines {
+      top: 435px;
+      left: 28%;
+      width: 60px;
+      height: 60px;
+    }
+
     #leaf {
-      top: 570px;
-      left: 80%;
+      top: 530px;
+      left: 85%;
       width: 100px;
       height: 100px;
     }
@@ -1322,8 +1417,10 @@ nav {
 @media only screen and (max-width: 400px) {
 
  .page {
+   border: 0 solid $lightpink;
 
    .splash {
+     border-bottom: 40px solid $lightpink;
 
      .intro {
 
@@ -1334,12 +1431,33 @@ nav {
      }
    }
 
+   .scroll-down {
+     display: none;
+       .arrow {
+         display: none;
+       }
+     }
+
+    .home-content{
+      padding: 50px 20px;
+    }
+
+    .contact-section{
+      padding: 20px 20px 10px;
+    }
+
    .section{
-    padding: 50px 20px;
+
+     .header1 {
+       max-width: 900px;
+       display: flex;
+       justify-content: flex-start;
+     }
 
      .what-i-do {
 
         .image {
+          margin-top: -15px;
 
           img {
             height: 190px;
@@ -1361,6 +1479,7 @@ nav {
 / / / / / / / / / / / / / / / / / / /*/
 
 .profile {
+  padding: 60px 20px;
 }
 
 .prof-header{
@@ -1566,6 +1685,11 @@ nav {
 
 @media only screen and (min-width: 450px) {
 
+
+  .profile {
+      padding: 100px 20px;
+  }
+
   .prof-header {
 
     .name {
@@ -1595,6 +1719,35 @@ nav {
 
 }
 
+@media only screen and (min-width: 768px) {
+  .profile{
+    padding: 100px 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profile{
+    padding: 60px 20px;
+  }
+
+  .prof-header{
+    .name {
+      margin: 20px 0 8px 0;
+      color: $pink;
+      font-size: 40px;
+    }
+
+    .links {
+      height: 29px;
+      .link {
+        margin-right: 17px;
+        .icon {
+          height: 29px;
+        }
+      }
+    }
+  }
+}
 
 @media only screen and (max-width: 310px) {
 
@@ -2293,6 +2446,18 @@ nav {
 
 }
 
+@media only screen and (max-width: 400px) {
+
+  .bottom-line-project {
+    height: 0;
+  }
+
+  .project {
+    border: 0 solid $greylight;
+  }
+
+}
+
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / C U S T O M I Z A T I O N S / / /
@@ -2300,8 +2465,6 @@ nav {
 / / / / / / / / / / / / / / / / / / /*/
 
 .sleeping-bees {
-  background-image: url(../img/projects/sleeping-bees/bg.jpg);
-  background-attachment: fixed;
 
   nav {
     box-shadow: 0px 1px 0px #d9d9d9;
@@ -2316,7 +2479,7 @@ nav {
 
   .bottom-line-project {
     background-color: $none;
-    height: 20px;
+    height: 0;
     width: 100%;
     z-index: 4;
     bottom: 0;
@@ -2325,18 +2488,24 @@ nav {
 
   .project {
     color: $greydark;
-    border: 20px solid $none;
+    border: 0 solid $none;
   }
+}
 
   @media only screen and (min-width: 450px) {
-    nav {
-      .sidebar {
-        width: 280px;
+
+    .sleeping-bees{
+      background-image: url(../img/projects/sleeping-bees/bg.jpg);
+      background-attachment: fixed;
+
+      nav {
+        .sidebar {
+          width: 280px;
+        }
       }
     }
-  }
 
-}
+  }
 
 
 .midi-jardin {
@@ -2354,7 +2523,7 @@ nav {
 
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
-/ / / / / / / F 0 0 T E R / / / / / / /
+/ / / / / / / F O O T E R / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
 
@@ -2438,6 +2607,16 @@ nav {
 
   .footer {
     padding: 0 50px;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .footer {
+    .side {
+      padding: 10px 0 10px;
+    }
   }
 
 }

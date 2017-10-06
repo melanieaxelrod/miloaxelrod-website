@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>milo axelrod</title>
+    <title>Milo Axelrod</title>
+    <meta name=”description” content=”Freelance graphic designer based in New Paltz, NY.”>
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Milo Axelrod | Graphic Design">
+    <meta property="og:description" content="Freelance graphic designer based in New Paltz, NY.">
+    <meta property="og:url" content="http://www.miloaxelrod.com">
+    <meta property="og:site_name" content="Milo Axelrod | Graphic Design">
+    <meta property="og:image" content="http://miloaxelrod.com/img/meta-img.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name=”twitter:url” content=”http://www.miloaxelrod.com”>
+    <meta name="twitter:site" content="@miloaxelrod">
+    <meta name="twitter:title" content="Milo Axelrod | Graphic Design">
+    <meta name="twitter:description" content="Freelance graphic designer based in New Paltz, NY.">
+    <meta name="twitter:image" content="http://miloaxelrod.com/img/meta-img.png">
+    <meta name="theme-color" content="#FFE9E3" />
+
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -43,7 +59,7 @@
             <a href="https://miloaxelrod.tumblr.com/" class="link" target="_blank" title="tumblr">
               <div class="icon"><img src="img/icons/tumblr.svg" /></div>
             </a>
-            <a href="mailto:milo@axelrod.design" class="link" target="_blank" title="email">
+            <a href="mailto:miloaxelrod@gmail.com" class="link" target="_blank" title="email">
               <div class="icon"><img src="img/icons/email.svg" /></div>
             </a>
           </div>
@@ -293,10 +309,10 @@
             </div>
             <div class="descript">
               <p>
-                Formerly known as Melanie. Hailing from upstate New York and descended from vikings (probably), She's a versatile graphic designer with the best job in the world. She was born hungry for knowledge and is always pushing and questioning her own boundaries. With engineering as a base to her graphic design BFA, She uses both mindsets to try and solve every problem she can get her hands on, whether anybody asked her to or not.
+                Formerly known as Melanie. Hailing from upstate New York and descended from vikings, I'm a versatile graphic designer with the best job in the world. I'm always searching for new knowledge and experiences that push my boundaries. With engineering as a base to my graphic design BFA, I use both mindsets to try and solve every problem I can get my hands on, whether anybody asked me to or not.
               </p>
               <p>
-                She spends the rest of her time playing tenor guitar, reading scifi and obscure non-fiction, &amp; tasting plants found in questionable locations. She likes to do DIY fixes using mostly twine (and mostly succeed) and enjoys hyper-analyzing her life and <a href="https://miloaxelrod.tumblr.com/" target="_blank">writing</a> about it.
+                I spend the rest of my time playing tenor guitar, reading scifi and obscure non-fiction, &amp; tasting plants found in questionable locations. I like to do DIY fixes using mostly twine (and mostly succeed) and enjoy hyper-analyzing my life and writing about it.
               </p>
             </div>
           </div>

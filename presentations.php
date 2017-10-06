@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>milo axelrod</title>
+    <title>Milo Axelrod</title>
+    <meta name=”description” content=”Freelance graphic designer based in New Paltz, NY.”>
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Milo Axelrod | Presentations">
+    <meta property="og:description" content="Freelance graphic designer based in New Paltz, NY.">
+    <meta property="og:url" content="http://www.miloaxelrod.com/presentations.php">
+    <meta property="og:site_name" content="Milo Axelrod | Graphic Design">
+    <meta property="og:image" content="http://miloaxelrod.com/img/meta-img.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name=”twitter:url” content=”http://www.miloaxelrod.com/presentations.php”>
+    <meta name="twitter:site" content="@miloaxelrod">
+    <meta name="twitter:title" content="Milo Axelrod | Presentations">
+    <meta name="twitter:description" content="Freelance graphic designer based in New Paltz, NY.">
+    <meta name="twitter:image" content="http://miloaxelrod.com/img/meta-img.png">
+
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

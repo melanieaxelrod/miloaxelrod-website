@@ -4,7 +4,7 @@
       &copy; Milo Axelrod 2017
     </div>
   </div>
-  <div class="side rightside">
+  <div class="side rightside hide">
     <div class="links">
       <div class="link">
         <a href="catskills-conf.php" class="link">

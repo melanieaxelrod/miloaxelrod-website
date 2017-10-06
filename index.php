@@ -4,7 +4,24 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>milo axelrod</title>
+
+    <title>Milo Axelrod</title>
+    <meta name=”description” content=”Freelance graphic designer based in New Paltz, NY.”>
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Milo Axelrod | Graphic Design">
+    <meta property="og:description" content="Freelance graphic designer based in New Paltz, NY.">
+    <meta property="og:url" content="http://www.miloaxelrod.com">
+    <meta property="og:site_name" content="Milo Axelrod | Graphic Design">
+    <meta property="og:image" content="http://miloaxelrod.com/img/meta-img.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name=”twitter:url” content=”http://www.miloaxelrod.com”>
+    <meta name="twitter:site" content="@miloaxelrod">
+    <meta name="twitter:title" content="Milo Axelrod | Graphic Design">
+    <meta name="twitter:description" content="Freelance graphic designer based in New Paltz, NY.">
+    <meta name="twitter:image" content="http://miloaxelrod.com/img/meta-img.png">
+    <meta name="theme-color" content="#FFE9E3" />
+
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -37,7 +54,7 @@
         </div>
       </div>
       <p id="veg">
-        Based in New Paltz, NY, I like looking at rocks, eating plants I found on the ground, and high-quality speakers. I also really like my job. Lets work together.
+        Based in the Hudson Valley, I like cool jazz, indoor gardening, and black v-neck sweaters. I also really like my job. Let's work together.
       </p>
     </div>
   </div>
@@ -48,16 +65,34 @@
         <img src="img/illus/splash/rocket.svg" />
       </div>
     </div>
-    <div class="floaty" id="plane" data-scroll-speed="3">
+    <div class="floaty" id="rocket-lines" data-scroll-speed="4">
+      <div class="image-s">
+        <img src="img/illus/splash/lines3.svg" />
+      </div>
+    </div>
+
+    <div class="floaty hide" id="plane" data-scroll-speed="3">
       <div class="image">
         <img src="img/illus/splash/plane.svg" />
       </div>
     </div>
+    <div class="floaty" id="plane-lines" data-scroll-speed="3">
+      <div class="image-s">
+        <img src="img/illus/splash/lines1.svg" />
+      </div>
+    </div>
+
     <div class="floaty" id="bananas" data-scroll-speed="3">
       <div class="image">
         <img src="img/illus/splash/bananas.svg" />
       </div>
     </div>
+    <div class="floaty" id="bananas-lines" data-scroll-speed="3">
+      <div class="image-s">
+        <img src="img/illus/splash/lines2.svg" />
+      </div>
+    </div>
+
     <div class="floaty" id="leaf" data-scroll-speed="2">
       <div class="image">
         <img src="img/illus/splash/leaf.svg" />
@@ -68,7 +103,7 @@
   <div class="scroll-down">
     <div class="arrow" data-scroll-speed="19">
       <div class="image">
-        <img src="img/scroll-down.svg" />
+        <img src="img/icons/scroll-down.svg" />
       </div>
     </div>
   </div>
@@ -119,15 +154,16 @@
       </div>
     </div>
 
-<div class="spacer80"></div>
+<div class="spacer40"></div>
 
     <div class="what-i-do">
       <div class="header1">
         <h1 class="underline">Here's how I work.</h1>
       </div>
+      <div class="spacer20"></div>
       <div class="copy reveal left">
         <h2>You're beautifully unique.</h2>
-        <p>You're project is like no other and deserves to be treats like the individual it is. Working with me will never be a cookie-cutter experience.</p>
+        <p>Your project is like no other and deserves to be treats like the individual it is. Working with me will never be a cookie-cutter experience.</p>
       </div>
       <div class="image reveal right">
         <img src="img/illus/unique.svg" alt="An illustration of five little blobby people with unique characteristics."/>
@@ -137,7 +173,7 @@
     <div class="what-i-do">
       <div class="copy reveal right">
         <h2>It's about the user.</h2>
-        <p>Your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest.</p>
+        <p>Your project is all about the user, the viewer, the customer. I practice user-centered design in everything I work on, from the largest to the smallest project.</p>
       </div>
       <div class="image reveal left">
         <img src="img/illus/the-user.svg" alt="An illustration of an archetypal user with a content expression, wearing a crown and holding a laptop in the left hand and a smartphone in the right."/>
@@ -159,7 +195,7 @@
     <div class="linkybob reveal">
       <a href="#" class="link-box sidebar-toggle-open" target="_blank">
         <div class="link-text">
-          View some of my work
+          View my work
         </div>
         <div class="link-arrow"><img src="img/icons/arrow-r-light.svg" /></div>
       </a>
@@ -176,7 +212,7 @@
           Whether you're interested in working together or just want to say hi, I'd love to hear from you.
         </p>
         <div class="linkybob">
-          <a href="#" class="link-box" target="_blank">
+          <a href="mailto:miloaxelrod@gmail.com" class="link-box">
             <div class="link-text">
               Send me a message
             </div>
@@ -201,7 +237,7 @@
           <a href="https://www.linkedin.com/in/melanieaxelrod/" class="link" target="_blank">
             <div class="icon"><img src="img/icons/linkedin.svg" /></div>
           </a>
-          <a href="mailto:milo@axelrod.design" class="link" target="_blank">
+          <a href="mailto:miloaxelrod@gmail.com" class="link">
             <div class="icon"><img src="img/icons/email.svg" /></div>
           </a>
         </div>
