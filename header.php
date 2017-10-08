@@ -77,8 +77,10 @@
         </div>
       </div>
 
-    <!-- "Projects" doesn't show up because there's no margin top -->
-    <h3 class="not-mobile">Projects</h3>
+    <div class="not-mobile">
+      <div class="spacer50">
+      </div>
+    </div>
     <div class="sidebar-body">
 
       <a href="catskills-conf.php" class="project-link">

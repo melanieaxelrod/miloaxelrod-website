@@ -173,7 +173,7 @@
       <div class="spacer20"></div>
       <div class="copy reveal left">
         <h2>You're beautifully unique.</h2>
-        <p>Your project is like no other and deserves to be treats like the individual it is. Working with me will never be a cookie-cutter experience.</p>
+        <p>Your project is like no other and deserves to be treated like the individual it is. Working with me will never be a cookie-cutter experience.</p>
       </div>
       <div class="image reveal right">
         <img src="img/illus/unique.svg" alt="An illustration of five little blobby people with unique characteristics."/>

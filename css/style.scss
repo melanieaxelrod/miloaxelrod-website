@@ -166,6 +166,11 @@ p {
   width: 100%;
 }
 
+.spacer50 {
+  height: 50px;
+  width: 100%;
+}
+
 .spacer80 {
   height: 80px;
   width: 100%;
@@ -352,7 +357,7 @@ nav {
     background: $lightpink;
     border-left: 20px solid $lightpink;
     padding-right: 20px;
-    height: 100vh;
+    height: 100%;
     overflow-y: scroll;
     position: fixed;
     top: 0;
@@ -469,14 +474,15 @@ nav {
     }
 
     .sidebar-body {
-      margin: 10px 0 0 0;
+      margin: 0;
 
       .project-link{
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin: 0 0 20px 0;
+        padding: 10px 0;
         height: 100px;
+        border-top: 0px solid $pinktransp;
 
         .project-image {
           height: 100px;
@@ -519,12 +525,12 @@ nav {
 
       a:hover {
         transition: 0.3s;
-        background-color: rgba( $white, .45 );
+        background-color: rgba( $medpink, .4 );
       }
 
       a:active {
         transition: 0.3s;
-        background-color: rgba( $medpink, .6 );
+        background-color: rgba( $white, .5 );
       }
     }
 
@@ -624,6 +630,12 @@ nav {
         font-weight: 300;
         color: $dark;
       }
+
+      .sidebar-body {
+        .project-link {
+          border-top: 2px solid $pinktransp;
+        }
+      }
     }
   }
 
@@ -656,7 +668,7 @@ nav {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) , (max-height: 400px) {
 
   .bottom-line{
     height: 0;
@@ -673,6 +685,16 @@ nav {
 
 }
 
+@media only screen and (max-height: 400px) {
+
+nav {
+  .sidebar {
+      right: -340px;
+    }
+  }
+
+}
+
 
 
 /*/ / / / / / / / / / / / / / / / / / /
@@ -683,7 +705,8 @@ nav {
 
 
 .page {
-  border: 20px solid $lightpink;
+  border-left: 20px solid $lightpink;
+  border-right: 20px solid $lightpink;
   margin: 0;
   width: auto;
   overflow: hidden;
@@ -1051,7 +1074,7 @@ nav {
   }
 
   .contact-section{
-    padding: 100px 20px;
+    padding: 60px 20px;
   }
 
   .home-content {
@@ -1059,7 +1082,7 @@ nav {
   }
 
   .section{
-    padding: 100px 20px;
+    padding: 60px 20px;
 
     .services {
 
@@ -1224,7 +1247,7 @@ nav {
   }
 
   .contact-section{
-    padding: 100px 50px;
+    padding: 60px 50px;
   }
 
   .home-content{
@@ -1414,10 +1437,11 @@ nav {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) , (max-height: 400px) {
 
  .page {
-   border: 0 solid $lightpink;
+   border-left: 0 solid $lightpink;
+   border-right: 0 solid $lightpink;
 
    .splash {
      border-bottom: 40px solid $lightpink;
@@ -1468,6 +1492,14 @@ nav {
     }
   }
 
+}
+
+@media only screen and (max-height: 400px) {
+
+  .splash {
+    height: calc( 100vh - (200px + 40px ) ) !important;
+    padding: 100px 20px !important;
+  }
 }
 
 
@@ -2446,7 +2478,7 @@ nav {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) , (max-height: 400px) {
 
   .bottom-line-project {
     height: 0;
@@ -2463,6 +2495,7 @@ nav {
 / / / C U S T O M I Z A T I O N S / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
+
 
 .sleeping-bees {
 
@@ -2492,20 +2525,30 @@ nav {
   }
 }
 
-  @media only screen and (min-width: 450px) {
+@media only screen and (min-width: 450px) {
 
-    .sleeping-bees{
-      background-image: url(../img/projects/sleeping-bees/bg.jpg);
-      background-attachment: fixed;
+  .sleeping-bees{
+    background-image: url(../img/projects/sleeping-bees/bg.jpg);
+    background-attachment: fixed;
 
-      nav {
-        .sidebar {
-          width: 280px;
-        }
+    nav {
+      .sidebar {
+        width: 280px;
       }
     }
-
   }
+
+}
+
+@media only screen and (max-height: 450px) {
+
+  .sleeping-bees{
+    background-image: none;
+  }
+
+}
+
+
 
 
 .midi-jardin {
@@ -2611,7 +2654,7 @@ nav {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) , (max-height: 400px) {
 
   .footer {
     .side {

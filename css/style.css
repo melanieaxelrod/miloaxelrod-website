@@ -128,6 +128,10 @@ p {
   height: 40px;
   width: 100%; }
 
+.spacer50 {
+  height: 50px;
+  width: 100%; }
+
 .spacer80 {
   height: 80px;
   width: 100%; }
@@ -259,7 +263,7 @@ nav {
     background: #FFE9E3;
     border-left: 20px solid #FFE9E3;
     padding-right: 20px;
-    height: 100vh;
+    height: 100%;
     overflow-y: scroll;
     position: fixed;
     top: 0;
@@ -335,13 +339,14 @@ nav {
       font-size: 25px;
       font-weight: 500; }
     nav .sidebar .sidebar-body {
-      margin: 10px 0 0 0; }
+      margin: 0; }
       nav .sidebar .sidebar-body .project-link {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin: 0 0 20px 0;
-        height: 100px; }
+        padding: 10px 0;
+        height: 100px;
+        border-top: 0px solid rgba(246, 163, 121, 0.2); }
         nav .sidebar .sidebar-body .project-link .project-image {
           height: 100px;
           width: 100px;
@@ -370,10 +375,10 @@ nav {
         border-radius: 5px; }
       nav .sidebar .sidebar-body a:hover {
         transition: 0.3s;
-        background-color: rgba(255, 255, 255, 0.45); }
+        background-color: rgba(255, 200, 186, 0.4); }
       nav .sidebar .sidebar-body a:active {
         transition: 0.3s;
-        background-color: rgba(255, 200, 186, 0.6); }
+        background-color: rgba(255, 255, 255, 0.5); }
     nav .sidebar .sidebar-footer {
       position: fixed;
       bottom: 15px;
@@ -438,13 +443,15 @@ nav {
       font-size: 38px;
       font-weight: 300;
       color: #585F6C; }
+    nav .sidebar .sidebar-body .project-link {
+      border-top: 2px solid rgba(246, 163, 121, 0.2); }
 
   .sidebar-topbit .icons .sidebar-toggle-close {
     margin-left: 268px; } }
 @media only screen and (max-width: 370px) {
   nav .navbar .icons a {
     margin-left: 17px; } }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px), (max-height: 400px) {
   .bottom-line {
     height: 0; }
 
@@ -452,13 +459,17 @@ nav {
     bottom: 0 !important; }
     .sidebar-footer .links {
       margin-bottom: 5px; } }
+@media only screen and (max-height: 400px) {
+  nav .sidebar {
+    right: -340px; } }
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / H O M E P A G E / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
 .page {
-  border: 20px solid #FFE9E3;
+  border-left: 20px solid #FFE9E3;
+  border-right: 20px solid #FFE9E3;
   margin: 0;
   width: auto;
   overflow: hidden; }
@@ -694,11 +705,11 @@ nav {
         max-width: 450px;
         margin: 0 auto; }
   .page .contact-section {
-    padding: 100px 20px; }
+    padding: 60px 20px; }
   .page .home-content {
     padding: 100px 20px; }
   .page .section {
-    padding: 100px 20px; }
+    padding: 60px 20px; }
     .page .section .services .service {
       margin: 20px 15px; }
     .page .section .contact .col .image {
@@ -782,7 +793,7 @@ nav {
       .page .splash .intro .splash-text .text {
         max-width: 600px; }
   .page .contact-section {
-    padding: 100px 50px; }
+    padding: 60px 50px; }
   .page .home-content {
     padding: 100px 50px; }
   .page .section .copy-2 {
@@ -872,9 +883,10 @@ nav {
     margin-left: auto; }
   .page .section .what-i-do .right h2 {
     margin-right: auto; } }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px), (max-height: 400px) {
   .page {
-    border: 0 solid #FFE9E3; }
+    border-left: 0 solid #FFE9E3;
+    border-right: 0 solid #FFE9E3; }
     .page .splash {
       border-bottom: 40px solid #FFE9E3; }
       .page .splash .intro .splash-text {
@@ -897,6 +909,10 @@ nav {
       .page .section .what-i-do .image img {
         height: 190px;
         min-width: 100px; } }
+@media only screen and (max-height: 400px) {
+  .splash {
+    height: calc( 100vh - (200px + 40px ) ) !important;
+    padding: 100px 20px !important; } }
 /*/ / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / P R O F I L E / / / / / / /
@@ -1473,7 +1489,7 @@ nav {
         height: 25px; }
         .project .section .linkybob .link-box .link-arrow img {
           height: 25px; } }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px), (max-height: 400px) {
   .bottom-line-project {
     height: 0; }
 
@@ -1506,6 +1522,9 @@ nav {
     background-attachment: fixed; }
     .sleeping-bees nav .sidebar {
       width: 280px; } }
+@media only screen and (max-height: 450px) {
+  .sleeping-bees {
+    background-image: none; } }
 .midi-jardin {
   background-image: url(../img/projects/midi-jardin/bg.png);
   background-size: contain;
@@ -1571,6 +1590,8 @@ nav {
 @media only screen and (min-width: 768px) {
   .footer {
     padding: 0 50px; } }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px), (max-height: 400px) {
   .footer .side {
     padding: 10px 0 10px; } }
+
+/*# sourceMappingURL=style.css.map */
