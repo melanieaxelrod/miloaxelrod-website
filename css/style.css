@@ -284,7 +284,6 @@ nav {
       text-decoration: none; }
     nav .sidebar .topbit-container {
       position: fixed;
-      top: 0;
       width: calc(100% - 40px);
       height: 50px;
       background-color: #FFE9E3; }
@@ -1125,7 +1124,6 @@ nav {
     border-left: 20px solid #e8e8e8; }
     .project-nav nav .sidebar .topbit-container {
       position: fixed;
-      top: 0;
       width: calc(100% - 40px);
       height: 50px;
       background-color: #e8e8e8; }
