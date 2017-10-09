@@ -18,7 +18,7 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Milo Axelrod | Presentations">
-    <meta property="og:description" content="Freelance graphic designer based in New Paltz, NY.">
+    <meta property="og:description" content="Freelance graphic designer based in New Paltz, NY. Formerly Melanie Axelrod.">
     <meta property="og:url" content="http://www.miloaxelrod.com/presentations.php">
     <meta property="og:site_name" content="Milo Axelrod | Graphic Design">
     <meta property="og:image" content="http://miloaxelrod.com/img/meta-img.png">

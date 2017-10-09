@@ -506,7 +506,7 @@ nav {
       -webkit-text-fill-color: #F69679; }
   .page .contact-section {
     background-color: #FFE9E3;
-    padding: 60px 20px 40px; }
+    padding: 58px 20px 40px; }
   .page .section {
     /*    border-bottom: 20px solid $lightpink; */
     margin: 0 auto; }
@@ -657,7 +657,7 @@ nav {
     background-position: bottom left;
     background-size: cover;
     background-color: #FFFFFF;
-    padding: 60px 20px; }
+    padding: 55px 20px; }
     .page .home-content .linkybob {
       margin-top: 0;
       margin-bottom: 60px; }
@@ -703,23 +703,19 @@ nav {
       .page .splash .intro .splash-text .text {
         max-width: 450px;
         margin: 0 auto; }
-  .page .contact-section {
-    padding: 60px 20px; }
   .page .home-content {
     padding: 100px 20px; }
-  .page .section {
-    padding: 60px 20px; }
-    .page .section .services .service {
-      margin: 20px 15px; }
-    .page .section .contact .col .image {
-      height: 170px;
-      display: none; }
-      .page .section .contact .col .image img {
-        height: 170px; }
-    .page .section .what-i-do .copy {
-      padding: 25px 35px 15px; }
-    .page .section .what-i-do .image img {
-      height: 270px; } }
+  .page .section .services .service {
+    margin: 20px 15px; }
+  .page .section .contact .col .image {
+    height: 170px;
+    display: none; }
+    .page .section .contact .col .image img {
+      height: 170px; }
+  .page .section .what-i-do .copy {
+    padding: 25px 35px 15px; }
+  .page .section .what-i-do .image img {
+    height: 270px; } }
 @media only screen and (min-width: 768px) {
   .floaters {
     display: block;
@@ -918,7 +914,7 @@ nav {
 / / / / / / / / / / / / / / / / / / / /
 / / / / / / / / / / / / / / / / / / /*/
 .profile {
-  padding: 60px 20px; }
+  padding: 59px 20px; }
 
 .prof-header {
   max-width: 600px;
@@ -1076,7 +1072,7 @@ nav {
     padding: 100px 50px; } }
 @media only screen and (max-width: 400px) {
   .profile {
-    padding: 60px 20px; }
+    padding: 59px 20px; }
 
   .prof-header .name {
     margin: 20px 0 8px 0;
