@@ -481,7 +481,8 @@ nav {
         justify-content: flex-start;
         padding: 10px 0;
         height: 100px;
-        border-top: 0px solid $pinktransp;
+        border-top: 0 solid $pinktransp;
+        border-radius: 0;
 
         .project-image {
           height: 100px;
@@ -519,7 +520,6 @@ nav {
       a {
         transition: 0.3s;
         background-color: $lightpink;
-        border-radius: 5px;
       }
 
       a:hover {
@@ -1925,6 +1925,7 @@ nav {
       .sidebar-body {
 
         .project-link{
+          border-top: 0px solid $greytransp;
 
           .title {
             color: $greydark;
@@ -1938,7 +1939,6 @@ nav {
         a {
           transition: 0.3s;
           background-color: $greylight;
-          border-radius: 5px;
         }
 
         a:hover {
@@ -2305,6 +2305,19 @@ nav {
 / / / / / / / / / / / / / / / / / / /*/
 
 @media only screen and (min-width: 450px) {
+
+  .project-nav {
+    nav {
+      .sidebar {
+        .sidebar-body {
+          .project-link {
+              border-top: 2px solid $greytransp;
+          }
+        }
+      }
+    }
+  }
+
   .project {
     .section {
 
