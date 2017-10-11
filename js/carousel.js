@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.carousel').slick({  
+  $('.carousel').slick({
     dots: true,
     adaptiveHeight: true,
     nextArrow: "<img class='a-right control-c next slick-next' src='img/icons/grey/arrow-r.svg'>",
