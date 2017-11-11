@@ -38,16 +38,16 @@
 
       <div class="image-cont">
         <div class="image-1">
-          <img src="" />
+          <img src="img/selfie.png" />
         </div>
       </div>
 
       <div class="image-cont">
         <div class="image-2">
-          <img src="" />
+          <img src="img/selfie.png" />
         </div>
         <div class="image-2">
-          <img src="" />
+          <img src="img/selfie.png" />
         </div>
         <div class="caption">
           Caption text your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest.
@@ -62,7 +62,7 @@
 
       <div class="image-cont">
         <div class="image-1">
-          <img src="" />
+          <img src="img/selfie.png" />
         </div>
         <div class="caption">
           Caption text your project is all about the user, the viewer, the customer. I practice user-centered design in every project I work on, from the largest to the smallest.
@@ -72,13 +72,13 @@
       <div class="carousel-box">
         <div class="carousel">
           <div class="image">
-            <img src="img/ukedad.jpg" />
+            <img src="img/selfie.png" />
           </div>
           <div class="image">
-            <img src="img/ukedad.jpg" />
+            <img src="img/selfie.png" />
           </div>
           <div class="image">
-            <img src="img/ukedad.jpg" />
+            <img src="img/selfie.png" />
           </div>
         </div>
       </div>

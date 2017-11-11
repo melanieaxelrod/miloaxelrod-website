@@ -90,7 +90,7 @@
         <div class="project-info">
         <div class="title">Catskills Conf
  </div>
-        <div class="type">Branding & Web Design</div>
+        <div class="type">Conf Branding</div>
           </div>
       </a>
 
@@ -127,7 +127,7 @@
         </div>
       </a>
 
-      <a href="presentations.php" class="project-link bottom-space">
+      <a href="presentations.php" class="project-link">
         <div class="project-image">
           <img src="img/projects/pres.svg" />
         </div>
@@ -135,6 +135,17 @@
         <div class="title">Presentations
 </div>
         <div class="type">Slide Deck Samples</div>
+        </div>
+      </a>
+
+      <a href="print.php" class="project-link bottom-space">
+        <div class="project-image">
+          <img src="img/projects/print.svg" />
+        </div>
+        <div class="project-info">
+        <div class="title">Print
+</div>
+        <div class="type">Print Material Samples</div>
         </div>
       </a>
 

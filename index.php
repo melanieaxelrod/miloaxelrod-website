@@ -64,14 +64,14 @@
   </div>
 
   <div class="scroll-down">
-    <div class="arrow" data-scroll-speed="19">
+    <div class="arrow">
       <div class="image">
         <img src="img/icons/scroll-down.svg" />
       </div>
     </div>
   </div>
 
-  <div class="section home-content">
+  <div class="section home-content" id="goto">
     <div class="my-services">
       <div class="header1">
         <h1 class="underline">I do a lot of stuff.</h1>

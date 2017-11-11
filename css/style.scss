@@ -1025,6 +1025,7 @@ nav {
       left: calc( 50vw - 60px );
       width: 60px;
       height: 20px;
+      cursor: pointer;
 
 
       .image {
@@ -2075,7 +2076,7 @@ nav {
 
       .image-2 {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
 
         img {
           width: 100%;
@@ -2083,22 +2084,24 @@ nav {
       }
 
       .image-narrow {
-        max-width: 600px;
-        margin-bottom: 40px;
+        width: 100%;
+        margin: 0 auto;
 
         img {
           width: 100%;
         }
       }
+    }
 
-      .caption {
-        margin: 10px auto 0;
-        max-width: 600px;
-        font-size: 15px;
-        line-height: 21px;
-        font-weight: 300;
-        text-align: center;
-        color: $greymed;
+    .image-cont-narrow {
+      display: block;
+
+      .image-narrow {
+        width: 100%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+        }
       }
     }
 
@@ -2107,6 +2110,33 @@ nav {
       max-width: 600px;
       p {
       }
+    }
+
+    .caption {
+      margin: 10px auto 0;
+      max-width: 600px;
+      font-size: 15px;
+      line-height: 21px;
+      font-weight: 300;
+      text-align: center;
+      color: $greymed;
+
+        a {
+          background-color: $greytransp;
+          color: $greydark;
+          text-decoration: none;
+          padding: 0 5px;
+          border-radius: 5px;
+          transition: .4s ease;
+        }
+        a:hover {
+          color: $greymed;
+          transition: .4s ease;
+        }
+        a:active {
+          transition: .4s ease;
+          color: $pink;
+        }
     }
 
   @media only screen and (min-width: 980px) {
@@ -2148,29 +2178,6 @@ nav {
 
       .caption {
         margin: 35px auto 0;
-        max-width: 600px;
-        font-size: 15px;
-        line-height: 21px;
-        font-weight: 300;
-        text-align: center;
-        color: $greymed;
-
-          a {
-            background-color: $greytransp;
-            color: $greydark;
-            text-decoration: none;
-            padding: 0 5px;
-            border-radius: 5px;
-            transition: .4s ease;
-          }
-          a:hover {
-            color: $greymed;
-            transition: .4s ease;
-          }
-          a:active {
-            transition: .4s ease;
-            color: $pink;
-          }
       }
     }
 
@@ -2238,7 +2245,6 @@ nav {
     overflow: hidden;
     background-color: $greylight;
     border-top: 0px solid $greymed;
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -2335,6 +2341,7 @@ nav {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-bottom: 40px;
 
         .image-1 {
           width: 100%;
@@ -2348,6 +2355,28 @@ nav {
           width: 47%;
           margin-bottom: 0;
 
+          img {
+            width: 100%;
+          }
+        }
+
+        .image-narrow {
+          max-width: 600px;
+          width: 600px;
+          margin: 0 auto;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .image-cont-narrow {
+        margin-bottom: 40px;
+
+        .image-narrow {
+          max-width: 600px;
+          margin: 0 auto;
           img {
             width: 100%;
           }
@@ -2558,6 +2587,307 @@ nav {
 }
 
 
+.catskills-conf {
+  .project-nav {
+    nav {
+      background-color: $cc-orange;
+      .navbar {
+        .name {
+          a {
+            color: $cc-greendark;
+          }
+          a:hover {
+            color: $pink !important;
+          }
+          a:active {
+            color: $pink !important;
+          }
+          a:visited {
+            color: $cc-greendark;
+          }
+        }
+        .icons {
+          a {
+            color: $cc-greendark;
+            .overlay {
+              background-color: $cc-orange;
+            }
+            &:hover .overlay {
+            }
+
+            svg {
+              path {
+                fill: $cc-greendark;
+              }
+            }
+          }
+          a:hover {
+            color: $cc-greendark;
+          }
+          a:visited {
+            color: $cc-greendark;
+          }
+          a:active {
+            color: $pink;
+          }
+        }
+      }
+      .sidebar {
+        background: $cc-orange;
+        border-left: 20px solid $cc-orange;
+
+        .topbit-container {
+          background-color: $cc-orange;
+        }
+        .mobile-nav {
+          .mobile-link {
+            border-top: 2px solid $cc-orangetransp;
+
+            .mobile-nav-icon {
+              svg {
+                path {
+                  fill: $cc-greendark;
+                }
+              }
+            }
+          }
+             a {
+          transition: 0.3s;
+            h3 {
+              transition: 0.3s;
+              color: $cc-greendark;
+            }
+            svg {
+              path {
+                fill: $cc-greendark;
+                transition: 0.3s;
+              }
+            }
+          }
+          a:hover {
+            transition: 0.3s;
+            h3 {
+              transition: 0.3s;
+              color: $cc-greendark;
+            }
+            svg {
+              path {
+                fill: $cc-green !important;
+                transition: 0.3s;
+              }
+            }
+          }
+          a:active {
+            transition: 0.3s;
+            h3 {
+              transition: 0.3s;
+              color: $cc-green;
+            }
+            svg {
+              path {
+                fill: $cc-green !important;
+                transition: 0.3s;
+              }
+            }
+          }
+        }
+      }
+        h3 {
+          color: $cc-greendark;
+        }
+        .sidebar-body {
+          .project-link{
+            border-top: 0px solid $cc-orangetransp;
+            .title {
+              color: $cc-greendark;
+            }
+            .type {
+              color: $cc-greendark;
+            }
+          }
+          a {
+            transition: 0.3s;
+            background-color: $cc-orange;
+          }
+          a:hover {
+            transition: 0.3s;
+            background-color: rgba( $white, .45 );
+          }
+          a:active {
+            transition: 0.3s;
+            background-color: $cc-orangetransp;
+          }
+          }
+        }
+        .sidebar-footer {
+          background-color: $cc-orange;
+          .links {
+            .icon {
+              svg {
+                path {
+                  fill: $cc-greendark;
+                }
+              }
+            }
+          a {
+            transition: 0.3s;
+            svg {
+              path {
+                fill: rgba( $cc-greendark, 1);
+                transition: 0.3s;
+              }
+            }
+          }
+          a:hover {
+            transition: 0.3s;
+            svg {
+              path {
+                fill: rgba( $cc-greendark, .7);
+                transition: 0.3s;
+              }
+            }
+          }
+          a:active {
+            transition: 0.3s;
+            svg {
+              path {
+                fill: rgba( $cc-greendark, 1);
+                transition: 0.3s;
+
+              }
+            }
+          }
+        }
+      }
+    }
+  .bottom-line-project {
+    background-color: $cc-orange;
+  }
+  .project {
+    color: $cc-greendark;
+    border: 20px solid $cc-orange;
+
+    p {
+      a {
+        background-color: $cc-orange;
+        color: $cc-greendark;
+      }
+      a:hover {
+        color: $greymed;
+        transition: .4s ease;
+      }
+      a:active {
+        transition: .4s ease;
+        color: $pink;
+      }
+    }
+    .section {
+      h1 {
+        color: $cc-green;
+      }
+
+      h2 {
+        color: $cc-green;
+      }
+
+      h3 {
+        color: $cc-green;
+      }
+      .image-cont {
+        .caption {
+          color: $cc-greendark;
+            a {
+              background-color: $cc-orange;
+              color: $cc-greendark;
+            }
+            a:hover {
+              color: $greymed;
+            }
+            a:active {
+              color: $pink;
+            }
+        }
+      }
+      .linkybob {
+        .link-box {
+          border: 2px solid $cc-green;
+          .link-text {
+          }
+        }
+        a:link {
+          color: $cc-greendark;
+          background-color: none;
+        }
+        a:active {
+          color: $cc-greendark;
+          background-color: $lightpink;
+          box-shadow: 0px 0px 0px 6px $lightpink;
+        }
+        a:hover {
+          color: $cc-greendark;
+          background-color: $cc-orange;
+          box-shadow: 0px 0px 0px 6px $cc-orange;
+        }
+        a:visited {
+          color: $cc-greendark;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 400px) , (max-height: 400px) {
+
+    .bottom-line-project {
+      height: 0;
+    }
+
+    .project {
+      border: 0 solid $greylight;
+    }
+  }
+  @media only screen and (min-width: 450px) {
+
+    .project-nav {
+      nav {
+        .sidebar {
+          .sidebar-body {
+            .project-link {
+                border-top: 2px solid $cc-orangetransp;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer{
+    margin: 0;
+    width: auto;
+    overflow: hidden;
+    background-color: $cc-orange;
+    border-top: 0px solid $greymed;
+    .side {
+      .links {
+        .link {
+          a {
+            color: $cc-green;
+          }
+          a:hover {
+            color: $cc-greendark;
+          }
+          a:active {
+            color: $cc-green;
+          }
+        }
+      }
+    }
+    .leftside {
+      .copy {
+        color: $cc-green;
+      }
+    }
+  }
+
+}
 
 
 .midi-jardin {

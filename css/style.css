@@ -678,7 +678,8 @@ nav {
     top: 91vh;
     left: calc( 50vw - 60px );
     width: 60px;
-    height: 20px; }
+    height: 20px;
+    cursor: pointer; }
     .scroll-down .arrow .image {
       width: 60px;
       height: 20px; }
@@ -1247,25 +1248,45 @@ nav {
           width: 100%; }
       .project .section .image-cont .image-2 {
         width: 100%;
-        margin-bottom: 40px; }
+        margin-bottom: 20px; }
         .project .section .image-cont .image-2 img {
           width: 100%; }
       .project .section .image-cont .image-narrow {
-        max-width: 600px;
-        margin-bottom: 40px; }
+        width: 100%;
+        margin: 0 auto; }
         .project .section .image-cont .image-narrow img {
           width: 100%; }
-      .project .section .image-cont .caption {
-        margin: 10px auto 0;
-        max-width: 600px;
-        font-size: 15px;
-        line-height: 21px;
-        font-weight: 300;
-        text-align: center;
-        color: #646464; }
+    .project .section .image-cont-narrow {
+      display: block; }
+      .project .section .image-cont-narrow .image-narrow {
+        width: 100%;
+        margin: 0 auto; }
+        .project .section .image-cont-narrow .image-narrow img {
+          width: 100%; }
     .project .section .paragraph {
       margin: 40px auto;
       max-width: 600px; }
+    .project .section .caption {
+      margin: 10px auto 0;
+      max-width: 600px;
+      font-size: 15px;
+      line-height: 21px;
+      font-weight: 300;
+      text-align: center;
+      color: #646464; }
+      .project .section .caption a {
+        background-color: rgba(60, 60, 60, 0.12);
+        color: #3C3C3C;
+        text-decoration: none;
+        padding: 0 5px;
+        border-radius: 5px;
+        transition: .4s ease; }
+      .project .section .caption a:hover {
+        color: #646464;
+        transition: .4s ease; }
+      .project .section .caption a:active {
+        transition: .4s ease;
+        color: #F69679; }
     @media only screen and (min-width: 980px) {
       .project .section .p-2col {
         margin: 40px auto;
@@ -1292,26 +1313,7 @@ nav {
             margin: 0 auto;
             height: auto; }
       .project .section .carousel-box .caption {
-        margin: 35px auto 0;
-        max-width: 600px;
-        font-size: 15px;
-        line-height: 21px;
-        font-weight: 300;
-        text-align: center;
-        color: #646464; }
-        .project .section .carousel-box .caption a {
-          background-color: rgba(60, 60, 60, 0.12);
-          color: #3C3C3C;
-          text-decoration: none;
-          padding: 0 5px;
-          border-radius: 5px;
-          transition: .4s ease; }
-        .project .section .carousel-box .caption a:hover {
-          color: #646464;
-          transition: .4s ease; }
-        .project .section .carousel-box .caption a:active {
-          transition: .4s ease;
-          color: #F69679; }
+        margin: 35px auto 0; }
     .project .section .linkybob {
       max-width: 600px;
       margin: 40px auto;
@@ -1413,7 +1415,8 @@ nav {
   .project .section .image-cont {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-bottom: 40px; }
     .project .section .image-cont .image-1 {
       width: 100%; }
       .project .section .image-cont .image-1 img {
@@ -1422,6 +1425,19 @@ nav {
       width: 47%;
       margin-bottom: 0; }
       .project .section .image-cont .image-2 img {
+        width: 100%; }
+    .project .section .image-cont .image-narrow {
+      max-width: 600px;
+      width: 600px;
+      margin: 0 auto; }
+      .project .section .image-cont .image-narrow img {
+        width: 100%; }
+  .project .section .image-cont-narrow {
+    margin-bottom: 40px; }
+    .project .section .image-cont-narrow .image-narrow {
+      max-width: 600px;
+      margin: 0 auto; }
+      .project .section .image-cont-narrow .image-narrow img {
         width: 100%; }
   .project .section .linkybob .link-box {
     padding: 10px 18px; }
@@ -1523,6 +1539,164 @@ nav {
 @media only screen and (max-height: 450px) {
   .sleeping-bees {
     background-image: none; } }
+.catskills-conf .project-nav nav {
+  background-color: #ffebcf; }
+  .catskills-conf .project-nav nav .navbar .name a {
+    color: #2a9f7c; }
+  .catskills-conf .project-nav nav .navbar .name a:hover {
+    color: #F69679 !important; }
+  .catskills-conf .project-nav nav .navbar .name a:active {
+    color: #F69679 !important; }
+  .catskills-conf .project-nav nav .navbar .name a:visited {
+    color: #2a9f7c; }
+  .catskills-conf .project-nav nav .navbar .icons a {
+    color: #2a9f7c; }
+    .catskills-conf .project-nav nav .navbar .icons a .overlay {
+      background-color: #ffebcf; }
+    .catskills-conf .project-nav nav .navbar .icons a svg path {
+      fill: #2a9f7c; }
+  .catskills-conf .project-nav nav .navbar .icons a:hover {
+    color: #2a9f7c; }
+  .catskills-conf .project-nav nav .navbar .icons a:visited {
+    color: #2a9f7c; }
+  .catskills-conf .project-nav nav .navbar .icons a:active {
+    color: #F69679; }
+  .catskills-conf .project-nav nav .sidebar {
+    background: #ffebcf;
+    border-left: 20px solid #ffebcf; }
+    .catskills-conf .project-nav nav .sidebar .topbit-container {
+      background-color: #ffebcf; }
+    .catskills-conf .project-nav nav .sidebar .mobile-nav .mobile-link {
+      border-top: 2px solid rgba(251, 176, 59, 0.25); }
+      .catskills-conf .project-nav nav .sidebar .mobile-nav .mobile-link .mobile-nav-icon svg path {
+        fill: #2a9f7c; }
+    .catskills-conf .project-nav nav .sidebar .mobile-nav a {
+      transition: 0.3s; }
+      .catskills-conf .project-nav nav .sidebar .mobile-nav a h3 {
+        transition: 0.3s;
+        color: #2a9f7c; }
+      .catskills-conf .project-nav nav .sidebar .mobile-nav a svg path {
+        fill: #2a9f7c;
+        transition: 0.3s; }
+    .catskills-conf .project-nav nav .sidebar .mobile-nav a:hover {
+      transition: 0.3s; }
+      .catskills-conf .project-nav nav .sidebar .mobile-nav a:hover h3 {
+        transition: 0.3s;
+        color: #2a9f7c; }
+      .catskills-conf .project-nav nav .sidebar .mobile-nav a:hover svg path {
+        fill: #40aa85 !important;
+        transition: 0.3s; }
+    .catskills-conf .project-nav nav .sidebar .mobile-nav a:active {
+      transition: 0.3s; }
+      .catskills-conf .project-nav nav .sidebar .mobile-nav a:active h3 {
+        transition: 0.3s;
+        color: #40aa85; }
+      .catskills-conf .project-nav nav .sidebar .mobile-nav a:active svg path {
+        fill: #40aa85 !important;
+        transition: 0.3s; }
+  .catskills-conf .project-nav nav h3 {
+    color: #2a9f7c; }
+  .catskills-conf .project-nav nav .sidebar-body .project-link {
+    border-top: 0px solid rgba(251, 176, 59, 0.25); }
+    .catskills-conf .project-nav nav .sidebar-body .project-link .title {
+      color: #2a9f7c; }
+    .catskills-conf .project-nav nav .sidebar-body .project-link .type {
+      color: #2a9f7c; }
+  .catskills-conf .project-nav nav .sidebar-body a {
+    transition: 0.3s;
+    background-color: #ffebcf; }
+  .catskills-conf .project-nav nav .sidebar-body a:hover {
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.45); }
+  .catskills-conf .project-nav nav .sidebar-body a:active {
+    transition: 0.3s;
+    background-color: rgba(251, 176, 59, 0.25); }
+.catskills-conf .project-nav .sidebar-footer {
+  background-color: #ffebcf; }
+  .catskills-conf .project-nav .sidebar-footer .links .icon svg path {
+    fill: #2a9f7c; }
+  .catskills-conf .project-nav .sidebar-footer .links a {
+    transition: 0.3s; }
+    .catskills-conf .project-nav .sidebar-footer .links a svg path {
+      fill: #2a9f7c;
+      transition: 0.3s; }
+  .catskills-conf .project-nav .sidebar-footer .links a:hover {
+    transition: 0.3s; }
+    .catskills-conf .project-nav .sidebar-footer .links a:hover svg path {
+      fill: rgba(42, 159, 124, 0.7);
+      transition: 0.3s; }
+  .catskills-conf .project-nav .sidebar-footer .links a:active {
+    transition: 0.3s; }
+    .catskills-conf .project-nav .sidebar-footer .links a:active svg path {
+      fill: #2a9f7c;
+      transition: 0.3s; }
+.catskills-conf .bottom-line-project {
+  background-color: #ffebcf; }
+.catskills-conf .project {
+  color: #2a9f7c;
+  border: 20px solid #ffebcf; }
+  .catskills-conf .project p a {
+    background-color: #ffebcf;
+    color: #2a9f7c; }
+  .catskills-conf .project p a:hover {
+    color: #646464;
+    transition: .4s ease; }
+  .catskills-conf .project p a:active {
+    transition: .4s ease;
+    color: #F69679; }
+  .catskills-conf .project .section h1 {
+    color: #40aa85; }
+  .catskills-conf .project .section h2 {
+    color: #40aa85; }
+  .catskills-conf .project .section h3 {
+    color: #40aa85; }
+  .catskills-conf .project .section .image-cont .caption {
+    color: #2a9f7c; }
+    .catskills-conf .project .section .image-cont .caption a {
+      background-color: #ffebcf;
+      color: #2a9f7c; }
+    .catskills-conf .project .section .image-cont .caption a:hover {
+      color: #646464; }
+    .catskills-conf .project .section .image-cont .caption a:active {
+      color: #F69679; }
+  .catskills-conf .project .section .linkybob .link-box {
+    border: 2px solid #40aa85; }
+  .catskills-conf .project .section .linkybob a:link {
+    color: #2a9f7c;
+    background-color: none; }
+  .catskills-conf .project .section .linkybob a:active {
+    color: #2a9f7c;
+    background-color: #FFE9E3;
+    box-shadow: 0px 0px 0px 6px #FFE9E3; }
+  .catskills-conf .project .section .linkybob a:hover {
+    color: #2a9f7c;
+    background-color: #ffebcf;
+    box-shadow: 0px 0px 0px 6px #ffebcf; }
+  .catskills-conf .project .section .linkybob a:visited {
+    color: #2a9f7c; }
+@media only screen and (max-width: 400px), (max-height: 400px) {
+  .catskills-conf .bottom-line-project {
+    height: 0; }
+  .catskills-conf .project {
+    border: 0 solid #e8e8e8; } }
+@media only screen and (min-width: 450px) {
+  .catskills-conf .project-nav nav .sidebar .sidebar-body .project-link {
+    border-top: 2px solid rgba(251, 176, 59, 0.25); } }
+.catskills-conf .footer {
+  margin: 0;
+  width: auto;
+  overflow: hidden;
+  background-color: #ffebcf;
+  border-top: 0px solid #646464; }
+  .catskills-conf .footer .side .links .link a {
+    color: #40aa85; }
+  .catskills-conf .footer .side .links .link a:hover {
+    color: #2a9f7c; }
+  .catskills-conf .footer .side .links .link a:active {
+    color: #40aa85; }
+  .catskills-conf .footer .leftside .copy {
+    color: #40aa85; }
+
 .midi-jardin {
   background-image: url(../img/projects/midi-jardin/bg.png);
   background-size: contain;

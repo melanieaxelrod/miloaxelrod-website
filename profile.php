@@ -272,11 +272,11 @@
               about
             </div>
             <div class="prof-pic">
-              <img src="img/selfie.png" alt="A photo of me. I'm caucasian and have very short blond hair that shwooshes up like a tidal wave. I have a nice smile and almost circular glasses that have caused some of my friends to refer to me as Blond Harry Potter. I'm wearing a black v-neck sweater and am sitting next to a very large plant that I think of as my friend. In the background you can see some books on a shelf and my guitar.">
+              <img src="img/selfie.png" alt="A photo of me. I'm caucasian and have very short blond hair that shwooshes up like a tidal wave. I have a nice smile and almost circular glasses. I'm wearing a black v-neck sweater and am sitting next to a very large plant that I think of as my friend. In the background you can see some books on a shelf and my guitar.">
             </div>
             <div class="descript">
               <p>
-                Formerly known as Melanie. Hailing from upstate New York and descended from vikings, I'm a versatile graphic designer with the best job in the world. I'm always searching for new knowledge and experiences that push my boundaries. With engineering as a base to my graphic design BFA, I use both mindsets to try and solve every problem I can get my hands on, whether anybody asked me to or not.
+                Hailing from upstate New York and descended from vikings, I'm a versatile graphic designer with the best job in the world. I'm always searching for new knowledge and experiences that push my boundaries. With engineering as a base to my graphic design BFA, I use both mindsets to try and solve every problem I can get my hands on, whether anybody asked me to or not.
               </p>
               <p>
                 I spend the rest of my time playing tenor guitar, reading scifi and obscure non-fiction, &amp; tasting plants found in questionable locations. I like to do DIY fixes using mostly twine (and mostly succeed) and enjoy hyper-analyzing my life and writing about it.

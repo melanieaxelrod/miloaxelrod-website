@@ -35,11 +35,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   <script src="js/compiled-scripts.js"></script>
-  <script src="js/carousel.js"></script>
 
   <script src="https://use.typekit.net/fle5loy.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 </head>

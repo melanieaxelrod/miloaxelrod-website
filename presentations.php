@@ -15,7 +15,7 @@
     <h3>Pitch Presentation</h3>
 
     <div class="paragraph">
-      <p>This deck was created for Agrilyst, a web app for managing indoor farms. It was intended to be accompanied by a verbal presentation, so it’s very graphic heavy, and includes some subtle animation in the “navigation bar” at the top of slides for an unusual effect.</p>
+      <p>Created for Agrilyst, a web app for managing indoor farms. It was intended to be accompanied by a verbal presentation, so it’s very graphic heavy, and includes some subtle animation in the “navigation bar” at the top of slides for an unusual effect.</p>
     </div>
 
     <div class="carousel-box">
@@ -47,7 +47,7 @@
     <h3>Conference Talk</h3>
 
     <div class="paragraph">
-      <p>This deck was made for one of my own talks, focused on portfolio advice for graphic design students. It’s intended only to be accompanied by verbal presentation, so its very graphic heavy.</p>
+      <p>Made for one of my own talks, focused on portfolio advice for graphic design students. It’s intended only to be accompanied by verbal presentation, so its very graphic heavy.</p>
     </div>
 
     <div class="carousel-box">
@@ -94,7 +94,7 @@
     <h3>Pitch Presentation</h3>
 
     <div class="paragraph">
-      <p>This deck was designed for a local non-profit initiative and uses has some light animation. It was intended to be accompanied by verbal presentation as well as emailed out afterwords, so it’s both text and image heavy.</p>
+      <p>Designed for a local non-profit initiative and uses has some light animation. It was intended to be accompanied by verbal presentation as well as emailed out afterwords, so it’s both text and image heavy.</p>
     </div>
 
     <div class="carousel-box">
@@ -126,7 +126,7 @@
     <h3>Conference Talk</h3>
 
     <div class="paragraph">
-      <p>This deck was made for one of my own talks, focused on my thesis work around smartphone interactions. It’s intended only to be accompanied by verbal presentation, so its very graphic heavy and illustrated.</p>
+      <p>Made for one of my own talks, focused on my thesis work around smartphone interactions. It’s intended only to be accompanied by verbal presentation, so its very graphic heavy and illustrated.</p>
     </div>
 
     <div class="carousel-box">

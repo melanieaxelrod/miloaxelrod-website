@@ -1,3 +1,15 @@
+/*//////// Carousel ////////*/
+
+$(document).ready(function(){
+  $('.carousel').slick({
+    dots: true,
+    adaptiveHeight: true,
+    nextArrow: "<img class='a-right control-c next slick-next' src='img/icons/grey/arrow-r.svg'>",
+    prevArrow: "<img class='a-left control-c prev slick-prev' src='img/icons/grey/arrow-l.svg'>",
+  });
+});
+
+
 /*//////// Fade In ////////*/
 
 $(document).ready(function () {
@@ -105,4 +117,18 @@ $(document).ready(function() {
       else
         $("body").css("overflow", "visible");
     });
+});
+
+
+/*//////// Scroll Down Arrow ////////*/
+
+$(document).ready(function() {
+  $('.arrow .image img').on('click', function(){
+    $('html, body').animate({
+    scrollTop: $("#goto").offset().top
+  }, 2000);
+  });
+
+  console.log("what UP! welcome to Milo's Console! this is my cool hangout place in CYBER SPACE");  console.log("we got margaritas, guacamole, every flavor of seven-up, and at least two bunches of bananas. usually more.");
+  console.log("looking for an invite? you just found it B)");
 });
