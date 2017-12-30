@@ -26,6 +26,15 @@
         </div>
       </div>
 
+      <div class="linkybob">
+        <a href="http://www.catskillsconf.com/" class="link-box" target="_blank">
+          <div class="link-text">
+            Explore the website
+          </div>
+          <div class="link-arrow"><img src="img/icons/custom/arrow-r-green.svg" /></div>
+        </a>
+      </div>
+
       <div class="spacer40"></div>
       <h1>The Brand</h1>
 
@@ -70,7 +79,6 @@
           <img src="img/projects/catskills-conf/casestudy5.svg" />
         </div>
       </div>
-
 
       <div class="spacer40"></div>
       <div class="paragraph">

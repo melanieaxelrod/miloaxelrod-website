@@ -2083,6 +2083,15 @@ nav {
         }
       }
 
+      .image-3 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+        }
+      }
+
       .image-narrow {
         width: 100%;
         margin: 0 auto;
@@ -2360,6 +2369,15 @@ nav {
           }
         }
 
+        .image-3 {
+          width: 30%;
+          margin-bottom: 0;
+
+          img {
+            width: 100%;
+          }
+        }
+
         .image-narrow {
           max-width: 600px;
           width: 600px;
@@ -2441,6 +2459,15 @@ nav {
 
         .image-2 {
           width: 47%;
+          margin-bottom: 0;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .image-3 {
+          width: 30%;
           margin-bottom: 0;
 
           img {

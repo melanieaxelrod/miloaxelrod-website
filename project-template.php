@@ -54,6 +54,18 @@
         </div>
       </div>
 
+      <div class="image-cont">
+        <div class="image-3">
+          <img src="img/selfie.png" />
+        </div>
+        <div class="image-3">
+          <img src="img/selfie.png" />
+        </div>
+        <div class="image-3">
+          <img src="img/selfie.png" />
+        </div>
+      </div>
+
 
       <div class="paragraph">
         <h2>This is the subtitle</h2>
