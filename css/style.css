@@ -1198,6 +1198,9 @@ nav {
   bottom: 0;
   position: fixed; }
 
+.shadow {
+  box-shadow: -2 -2 9 rgba(0, 0, 0, 0.3); }
+
 .project {
   color: #3C3C3C;
   border: 20px solid #e8e8e8; }
@@ -1250,6 +1253,11 @@ nav {
         width: 100%;
         margin-bottom: 20px; }
         .project .section .image-cont .image-2 img {
+          width: 100%; }
+      .project .section .image-cont .image-3 {
+        width: 100%;
+        margin-bottom: 20px; }
+        .project .section .image-cont .image-3 img {
           width: 100%; }
       .project .section .image-cont .image-narrow {
         width: 100%;
@@ -1426,6 +1434,11 @@ nav {
       margin-bottom: 0; }
       .project .section .image-cont .image-2 img {
         width: 100%; }
+    .project .section .image-cont .image-3 {
+      width: 47%;
+      margin-bottom: 0; }
+      .project .section .image-cont .image-3 img {
+        width: 100%; }
     .project .section .image-cont .image-narrow {
       max-width: 600px;
       width: 600px;
@@ -1473,6 +1486,11 @@ nav {
         margin-bottom: 0; }
         .project .section .image-cont .image-2 img {
           width: 100%; }
+      .project .section .image-cont .image-3 {
+        width: 30%;
+        margin-bottom: 0; }
+        .project .section .image-cont .image-3 img {
+          width: 100%; }
     .project .section .linkybob .link-box {
       padding: 12px 18px; }
       .project .section .linkybob .link-box .link-text {
@@ -1518,9 +1536,9 @@ nav {
   box-shadow: 0px 1px 0px #d9d9d9; }
   .sleeping-bees nav .navbar .sidebar {
     background: #e8e8e8;
-    border-left: 20px solid transparent; }
+    border-left: 20px solid rgba(0, 0, 0, 0); }
 .sleeping-bees .bottom-line-project {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   height: 0;
   width: 100%;
   z-index: 4;
@@ -1528,7 +1546,7 @@ nav {
   position: fixed; }
 .sleeping-bees .project {
   color: #3C3C3C;
-  border: 0 solid transparent; }
+  border: 0 solid rgba(0, 0, 0, 0); }
 
 @media only screen and (min-width: 450px) {
   .sleeping-bees {

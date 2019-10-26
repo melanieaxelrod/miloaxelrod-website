@@ -29,19 +29,7 @@
 
       <div class="image-cont">
         <div class="image-1">
-          <img src="img/projects/sleeping-bees/mockup1.png" />
-        </div>
-      </div>
-
-      <div class="image-cont">
-        <div class="image-1">
-          <img src="img/projects/sleeping-bees/mockup2.png" />
-        </div>
-      </div>
-
-      <div class="image-cont">
-        <div class="image-1">
-          <img src="img/projects/sleeping-bees/mockup3.png" />
+          <img src="img/projects/sleeping-bees/behancemockup-03.png" />
         </div>
       </div>
 
@@ -91,7 +79,7 @@
         </div>
       </div>
 
-      <br />
+      <br/>
       <h1>The Process</h1>
 
       <div class="paragraph">
@@ -256,7 +244,7 @@
 
       <div class="paragraph">
         <h2>The Content</h2>
-        <p>From here, it was time to get coding, which I did so just about until a few weeks before the Thesis Show. While I was writing HTML and CSS, I was also writing what turned out to be a lengthy paper in English. I've always struggled with papers, but I found that when writing about something I cared so deeply about and had spent so much time carefully considering and building original ideas around, I was inspired to do a fantastic job. I taught myself how to write effectively (as opposed to my usual ineffectively) in four passes: Rough outline, detailed outline, no-personality writing, much-personality writing. The result of which was the best thing I have ever written.</p>
+        <p>From here, it was time to get coding, which I did so just about until a few weeks before the Thesis Show. While I was writing HTML and CSS, I was also writing what turned out to be a lengthy paper in English. I've always struggled with papers, but I found that when writing about something I cared so deeply about and had spent so much time carefully considering and building original ideas around, I was inspired to do a fantastic job. I taught myself how to write effectively (as opposed to my usual ineffectively) in four passes: Rough outline, detailed outline, no-personality writing, much-personality writing. The result of which was (I've been told) a very engaging read.</p>
         <p>In the fashion of Snow-Fall style longform articles, I also created a series of illustrations to accompany my writing. I knew I wanted to include a reoccurring, relatable likeness of a person, but I had become keenly aware of the injustices of "relatable" illustrated human representations throughout media and web which almost always sport white or white-inspired skin tones. As far as I could tell, there were two acceptable options (aside from using constantly varying skin tones). Use completely abstract colors, or use an ambiguous medium brown as an "average" of the range of skin tones. I decided to go with the latter, because I felt that abstract colors still harkened to real skin tones, yellow being an equivalent to lighter tones and blue being an equivalent to darker ones. I cannot say if this was the most politically correct choice, but I am at least confident in my conscious decision to make this character of an ambiguous gender, which was a significantly easier choice.</p>
       </div>
 
@@ -275,6 +263,28 @@
       <div class="image-cont">
         <div class="image-1">
           <img src="img/projects/sleeping-bees/behancemockup-23.png" />
+        </div>
+      </div>
+
+      <div class="paragraph">
+        <p>From there on out, it was just a matter of putting the whole thing together and paying my friends in pizza to help me proofread.</p>
+      </div>
+
+      <div class="image-cont">
+        <div class="image-1">
+          <img src="img/projects/sleeping-bees/mockup1.png" />
+        </div>
+      </div>
+
+      <div class="image-cont">
+        <div class="image-1">
+          <img src="img/projects/sleeping-bees/mockup2.png" />
+        </div>
+      </div>
+
+      <div class="image-cont">
+        <div class="image-1">
+          <img src="img/projects/sleeping-bees/mockup3.png" />
         </div>
       </div>
 
@@ -299,7 +309,7 @@
       </div>
 
       <div class="paragraph">
-        <p>I had the mini cards and stickers printed with moo.com, printed the larger cards myself with the laser jet printers in the lab, and had an additional large banner printed with the campus print shop. Once all was done and collected, the only thing that remained was to find a table cloth and an iPad to borrow, and with that I was prepared for the show.</p>
+        <p>I had the mini cards and stickers printed with moo.com, printed the larger show cards myself with the laser jet printers in the lab, and had a large banner made at the campus print shop.</p>
       </div>
 
       <div class="image-cont">
@@ -320,9 +330,11 @@
         </div>
       </div>
 
+      <h1 style="text-align: center;">Thank you for viewing!</h1>
+
       <div class="image-cont">
         <div class="image-1">
-          <img src="img/projects/sleeping-bees/behancemockup-28.png" />
+          <img src="img/projects/sleeping-bees/behancemockup-03.png" />
         </div>
       </div>
 

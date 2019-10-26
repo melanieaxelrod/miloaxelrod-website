@@ -279,7 +279,10 @@
                 Hailing from upstate New York and descended from vikings, I'm a versatile graphic designer with the best job in the world. I'm always searching for new knowledge and experiences that push my boundaries. With engineering as a base to my graphic design BFA, I use both mindsets to try and solve every problem I can get my hands on, whether anybody asked me to or not.
               </p>
               <p>
-                I spend the rest of my time playing tenor guitar, reading scifi and obscure non-fiction, &amp; tasting plants found in questionable locations. I like to do DIY fixes using mostly twine (and mostly succeed) and enjoy hyper-analyzing my life and writing about it.
+                I spend the rest of my time playing tenor guitar, reading scifi and obscure non-fiction, &amp; tasting plants found in questionable locations.  I have a perfect dog, a <em>lot</em> of house plants, and a passion for pigeons.
+              </p>
+              <p>
+                I also create a lot of art (by which I mean, it just spills out of me uncontrollably and I sop up the mess with whatever medium works). I explore sound by writing music and producting a (surprisingly popular) <a href="https://anchor.fm/miloaxelrod" target="_blank">podcast about rocks.</a> I'm very slowly <a href="https://www.notion.so/miloaxelrod/Story-b41208dd1dfe4d9c94b7e5575e78442a" target="_blank">writing a book.</a> Lately I've been doing a lot of linoleum block printing that I sporatically post on my <a href="https://www.instagram.com/millennial_cyborg/" target="_blank">instagram.</a> And I am always, always, building new furninture and systems to make my home and life more beauitful.
               </p>
             </div>
           </div>

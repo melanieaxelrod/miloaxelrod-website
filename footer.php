@@ -1,7 +1,7 @@
 <div class="footer">
   <div class="side leftside">
     <div class="copy">
-      &copy; Milo Axelrod 2017
+      &copy; Milo Axelrod 2019
     </div>
   </div>
   <div class="side rightside hide">

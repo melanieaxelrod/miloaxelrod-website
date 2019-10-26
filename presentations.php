@@ -11,6 +11,15 @@
   <div class="page project">
     <div class="section last">
 
+    <h1>Presentation Design</h1>
+    <h3>Custom Slide Decks and Templates</h3>
+
+    <div class="paragraph">
+      <p>I build beautiful, sharp, easy to use custom templates and then dive in deeper to cater to each slide's individual UX needs to produce a unique &amp; engaging presentation that will captivate your audience.</p>
+    </div>
+
+    <div class="spacer80"></div>
+
     <h1>Agrilyst</h1>
     <h3>Pitch Presentation</h3>
 

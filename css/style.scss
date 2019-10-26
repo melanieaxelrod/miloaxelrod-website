@@ -144,7 +144,7 @@ p {
     border-bottom: 0 solid !important;
   }
 
-.not-mobile{
+.not-mobile {
   display: none;
 }
 
@@ -1990,10 +1990,10 @@ nav {
             }
           }
         }
-        }
       }
     }
   }
+}
 
 .bottom-line-project {
   background-color: $greylight;
@@ -2004,7 +2004,9 @@ nav {
   position: fixed;
 }
 
-
+.shadow {
+  box-shadow: -2 -2 9 rgba(0,0,0,.3);
+}
 
 .project {
   color: $greydark;
@@ -2370,7 +2372,7 @@ nav {
         }
 
         .image-3 {
-          width: 30%;
+          width: 47%;
           margin-bottom: 0;
 
           img {

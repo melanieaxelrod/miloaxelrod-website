@@ -18,6 +18,12 @@
         <p>I was contracted to redesign and develop the Sojourner Truth Library website, working side by side with a team of library faculty specializing in various areas of the library ecosystem. The project was broken up into a two month research phase, a two month design phase, and four months of development. The completed website will go live in the third week of January 2018.</p>
       </div>
 
+      <div class="image-cont">
+        <div class="image-1">
+          <img src="img/projects/stl-website/mockup1.png" />
+        </div>
+      </div>
+
       <h1>Research</h1>
 
       <div class="paragraph">
@@ -47,22 +53,22 @@
       <div class="carousel-box">
         <div class="carousel">
           <div class="image">
-            <img src="img/projects-stl-website/analysis1.svg" />
+            <img src="img/projects/stl-website/analysis-1.svg" />
           </div>
           <div class="image">
-            <img src="img/projects-stl-website/analysis2.svg" />
+            <img src="img/projects/stl-website/analysis-2.svg" />
           </div>
           <div class="image">
-            <img src="img/projects-stl-website/analysis3.svg" />
+            <img src="img/projects/stl-website/analysis-3.svg" />
           </div>
           <div class="image">
-            <img src="img/projects-stl-website/analysis4.svg" />
+            <img src="img/projects/stl-website/analysis-4.svg" />
           </div>
           <div class="image">
-            <img src="img/projects-stl-website/analysis5.svg" />
+            <img src="img/projects/stl-website/analysis-5.svg" />
           </div>
           <div class="image">
-            <img src="img/projects-stl-website/analysis6.svg" />
+            <img src="img/projects/stl-website/analysis-6.svg" />
           </div>
         </div>
       </div>
@@ -87,6 +93,7 @@
         </div>
       </div>
 
+      <!--
       <div class="spacer40"></div>
       <h3>Wireframes</h3>
 
@@ -98,15 +105,18 @@
           <img src="img/projects/stl-website/wireframe2.png" />
         </div>
       </div>
+      -->
 
       <div class="spacer40"></div>
-      <h3>Mockups</h3>
 
       <div class="image-cont">
-        <div class="image-2">
+        <div class="image-1">
           <img src="img/projects/stl-website/mockup1.png" />
         </div>
-        <div class="image-2">
+      </div>
+
+      <div class="image-cont">
+        <div class="image-1">
           <img src="img/projects/stl-website/mockup2.png" />
         </div>
       </div>
@@ -118,11 +128,8 @@
       </div>
 
       <div class="image-cont">
-        <div class="image-2">
+        <div class="image-1">
           <img src="img/projects/stl-website/mockup4.png" />
-        </div>
-        <div class="image-2">
-          <img src="img/projects/stl-website/mockup5.png" />
         </div>
       </div>
 

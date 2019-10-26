@@ -94,6 +94,17 @@
           </div>
       </a>
 
+        <a href="stl-website.php" class="project-link">
+          <div class="project-image">
+            <img src="img/projects/stl-website.svg" />
+          </div>
+          <div class="project-info">
+          <div class="title">Library
+   </div>
+          <div class="type">Website Design</div>
+            </div>
+        </a>
+
       <a href="sleeping-bees.php" class="project-link">
         <div class="project-image">
           <img src="img/projects/sleeping-bees.svg" />
