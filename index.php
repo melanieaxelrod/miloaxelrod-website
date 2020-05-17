@@ -13,11 +13,11 @@
     <div class="intro">
       <div class="splash-text">
         <div class="text" id="transport">
-          I’m a freelance graphic designer.
+          I’m a versatile graphic designer.
         </div>
       </div>
       <p id="veg">
-        Based in the Hudson Valley, I like cool jazz, indoor gardening, and black v-neck sweaters. I also really like my job. Let's work together.
+        Based in the Hudson Valley, I like cool jazz, indoor gardening, and black v-neck sweaters. I also really, really like my job.
       </p>
     </div>
   </div>
